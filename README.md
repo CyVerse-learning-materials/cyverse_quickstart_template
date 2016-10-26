@@ -26,9 +26,9 @@ Each CyVerse Tutorial or Quick Start has its own [ReadtheDocs](https://readthedo
 |tutorial_template.md|Edit this template to create a tutorial|documents written in markdown will need to be covered to restructured text|
 |quickstart_template.md|Edit this template to create a quickstart|documents written in markdown will need to be covered to restructured text|
 |/img (folder)|Place images for your tutorials here|CyVerse logos and other useful images are already here| 
-|/slides|Place slides associated with your tutorial here|Version controlled files preferred, PPT acceptable|
-|/workflows|Version-controlled workflows built with yED||
-|/misc|miscelaneous items associated with this tutorial| If at all possible, files should be hosted (with anonymous access) at the CyVerse public Data Commons site. A sample **config.py** file is located here|
+|/slides (folder)|Place slides associated with your tutorial here|Version controlled files preferred, PPT acceptable|
+|/workflows (folder)|Version-controlled workflows built with yED||
+|/misc (folder)|miscelaneous items associated with this tutorial| If at all possible, files should be hosted (with anonymous access) at the CyVerse public Data Commons site. A sample **config.py** file is located here|
 |License.md|License|This license file applies to all materials created by CyVerse for this documentation|
 |Contributors_maintainers.md|Contact information and recognition||
 
