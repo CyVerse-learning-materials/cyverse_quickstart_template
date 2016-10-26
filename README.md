@@ -20,4 +20,4 @@ You should copy this repo to build CyVerse Tutorials or Quickstarts
 
 ### Fixing an error via GitHub
 
-- Click [issue](./issue) to let us know about a simple mistake such as a typo or missing file. 
+- Click [issue](issue) to let us know about a simple mistake such as a typo or missing file. 
