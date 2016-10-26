@@ -55,6 +55,7 @@ A few sentences (50 words or less) describing the ultimate goal of the steps in 
 Steps and text go here
 --->
 
+|image 0|
 
 .. Hint::
 	You can insert reStructured text directives in the Markdown. The formatting will have to be fixed later in the .rst document see [rst docs](http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions)
@@ -73,7 +74,8 @@ Summary a--->
 Short description and links to any reading materials
 --->
 
-**Post your question to the user forum:** [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)
+**Search for an answer: [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [Wiki](https://wiki.cyverse.org/wiki/dashboard.action)**
+**Post your question to the user forum: [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)**
 
 ### Fix or improve this tutorial 
 

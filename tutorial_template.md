@@ -69,7 +69,7 @@ Keep only the relevant entries and delete the remaining
 Text and workflow image go here. Using reStructured text we can place a link to an image in pipes (label images 'image n' starting with n=0). At the end of the document add the image names, links, and parameters. 
 --->
 
-|image 1|
+|image 0|
 
 ### Apps and Atmosphere images
 
@@ -253,7 +253,9 @@ Optional list of one or more FAQ questions
 Short description and links to any reading materials
 --->
 
-**Post your question to the user forum:** [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)
+**Search for an answer: [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [Wiki](https://wiki.cyverse.org/wiki/dashboard.action)**
+**Post your question to the user forum: [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)**
+
 
 ### Fix or improve this tutorial 
 
