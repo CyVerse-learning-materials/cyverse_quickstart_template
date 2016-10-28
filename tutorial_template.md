@@ -1,4 +1,10 @@
+<!---
+
+Images can be added in-line as a reStructured text substitution, but will not render in markdown. See reStructured text example. http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions
+
 |CyVerse logo|
+
+--->
 
 #Tutorial Name
 
@@ -14,14 +20,16 @@ A few sentences (50 words or less) describing the ultimate goal of the steps in 
 --->
 
 ## Prerequisites
-
+<!---
+Short description
+--->
 
 
 ### Input and example data
 
 *In order to complete this tutorial you will need to have the following inputs prepared*
 
-|Input file(s)|Format|Preparation/Notes|Example data|
+|Input File(s)|Format|Preparation/Notes|Example Data|
 |-------------|------|-----------------|------------|
 ||||
 
@@ -29,19 +37,29 @@ A few sentences (50 words or less) describing the ultimate goal of the steps in 
 Short description
 --->
 
-**Example data citation:**
+<!---
+*you may want fine the following tutorials useful for completing this one:*
+
+|Related tutorial|Description|Link|
+|----------------|-----------|----|
+|Name|Description|[Link]()|
+|||
+--->
 
 <!---
+**Example data citation:**
+
 Links to papers, SRA, etc. 
 --->
 
 ### Downloads, access, and services
 
-*In order to complete this tutorial you will need to have completed the following*
+*In order to complete this tutorial may also need:*
 
 |Prerequisite|Preparation/Notes|Link/Download|
 |------------|-----------------|-------------|
-||||
+|Reference genome|Provide your own genome in FASTA format or use CyVerse provided genome|[Supported CyVerse Genomes](http://datacommons.cyverse.org/browse/iplant/home/shared/iplantcollaborative/genomeservices/builds/1.0.0/24_77)|
+
 
 
 ### Platform(s)
@@ -50,7 +68,7 @@ Links to papers, SRA, etc.
 Keep only the relevant entries and delete the remaining
 --->
 
-*We will use the following CyVerse Platform(s):*
+*We will use the following CyVerse platform(s):*
 
 |Platform|Interface|Link|Platform Documentation|
 |--------|---------|----|----------------------|
@@ -69,7 +87,13 @@ Keep only the relevant entries and delete the remaining
 Text and workflow image go here. Using reStructured text we can place a link to an image in pipes (label images 'image n' starting with n=0). At the end of the document add the image names, links, and parameters. 
 --->
 
+<!---
+
+Images can be added in-line as a reStructured text substitution, but will not render in markdown. See reStructured text example. http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions
+
 |image 0|
+
+--->
 
 ### Apps and Atmosphere images
 
@@ -134,8 +158,10 @@ Style recommendations for DE:
 Steps and text go here
 --->
 
+<!---
 .. Hint::
 	You can insert reStructured text directives in the Markdown. The formatting will have to be fixed later in the .rst document see [rst docs](http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions)
+--->
 
 **Outputs:**
 
@@ -253,15 +279,12 @@ Optional list of one or more FAQ questions
 Short description and links to any reading materials
 --->
 
-**Search for an answer: [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [Wiki](https://wiki.cyverse.org/wiki/dashboard.action)**
-**Post your question to the user forum: [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)**
+**Search for an answer:** [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [Wiki](https://wiki.cyverse.org/wiki/dashboard.action)
+**Post your question to the user forum:** [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)
 
 
 ### Fix or improve this tutorial 
 
-<!---
-Fix the Github link to a contribution-readme with instructions; verify mailto link
---->
 
 **Fix this tutorial on GitHub:** [GitHub](Link_to_gh_readme)
 **Send a note to support:** [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org)
@@ -295,8 +318,9 @@ See: http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions
      following.
    - It includes this bullet list.
 
---->
+
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500
     :height: 100
+--->

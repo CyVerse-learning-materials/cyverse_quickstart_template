@@ -1,4 +1,10 @@
+<!---
+
+Images can be added in-line as a reStructured text substitution, but will not render in markdown. See reStructured text example. http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions
+
 |CyVerse logo|
+
+--->
 
 #Quick Start Name
 
@@ -22,13 +28,13 @@ A few sentences (50 words or less) describing the ultimate goal of the steps in 
 
 |Prerequisite|Preparation/Notes|Link/Download|
 |------------|-----------------|-------------|
-|CyVerse Account|You will need a CyVerse Account to complete this exercise|[Register](https://user.cyverse.org/)|
+|CyVerse account|You will need a CyVerse account to complete this exercise|[Register](https://user.cyverse.org/)|
 |Atmosphere access|You must have access to Atmosphere|[Request Access](http://www.cyverse.org/learning-center/manage-account#AddAppsServices)|
 |Cyberduck|Stand alone software for upload/download to Data Store|[Download](https://cyberduck.io/)|
 
 ### Platform(s)
 
-*We will use the following CyVerse Platform(s):*
+*We will use the following CyVerse platform(s):*
 
 |Platform|Interface|Link|Platform Documentation|
 |--------|---------|----|----------------------|
@@ -42,7 +48,7 @@ A few sentences (50 words or less) describing the ultimate goal of the steps in 
 
 *In order to complete this tutorial you will need to have the following inputs prepared*
 
-|Input file(s)|Format|Preparation/Notes|Example data|
+|Input File(s)|Format|Preparation/Notes|Example Data|
 |-------------|------|-----------------|------------|
 ||||
 
@@ -55,10 +61,11 @@ A few sentences (50 words or less) describing the ultimate goal of the steps in 
 Steps and text go here
 --->
 
-|image 0|
 
+<!---
 .. Hint::
 	You can insert reStructured text directives in the Markdown. The formatting will have to be fixed later in the .rst document see [rst docs](http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions)
+--->
 
 ### Summary
 
@@ -74,14 +81,11 @@ Summary a--->
 Short description and links to any reading materials
 --->
 
-**Search for an answer: [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [Wiki](https://wiki.cyverse.org/wiki/dashboard.action)**
-**Post your question to the user forum: [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)**
+**Search for an answer:** [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [Wiki](https://wiki.cyverse.org/wiki/dashboard.action)
+**Post your question to the user forum:** [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)
 
 ### Fix or improve this tutorial 
 
-<!---
-Fix the Github link to a contribution-readme with instructions; verify mailto link
---->
 
 **Fix this tutorial on GitHub:** [GitHub](Link_to_gh_readme)
 **Send a note to support:** [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org)
@@ -115,9 +119,10 @@ See: http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions
      following.
    - It includes this bullet list.
 
---->
+
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500
     :height: 100
 
+--->

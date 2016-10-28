@@ -8,8 +8,8 @@ Each CyVerse Tutorial or Quick Start has its own [ReadtheDocs](https://readthedo
 
 ## Documentation types
 
-- **Tutorials:** Tutorials teach; users should be able to follow an example dataset through the steps of a tutorial and gain understanding about what is happening along those steps. These are in-depth guides that usually address a scientific question by covering the major steps of a scientific workflow. A tutorial is ‘successful’ when a user is able to follow the tutorial a second time with their own data and obtain reasonable results.
-- **Quick Starts:** These materials are short tutorials that cover the minimal amount of needed to complete an **operational task** (e.g. uploading data, reformatting a file, etc. ). QSs highlight available resources, answer common questions (derived from user forum), and refer users to the most appropriate materials.
+- **Tutorials:** Tutorials teach. Users should be able to follow an example dataset through the steps of a tutorial and gain understanding about what is happening along those steps. These are in-depth guides that usually address a scientific question by covering the major steps of a scientific workflow. A tutorial is ‘successful’ when a user is able to follow the tutorial a second time with their own data and obtain reasonable results.
+- **Quick Starts:** These materials are short tutorials that cover the minimal amount of needed to complete an **operational task** (e.g. uploading data, reformatting a file, etc. ); there is no significant explanation of the science or interpretation of results. QSs highlight available resources, answer common questions (derived from user forum), and refer users to the most appropriate materials.
 
 **Examples:**
 
@@ -26,10 +26,10 @@ Each CyVerse Tutorial or Quick Start has its own [ReadtheDocs](https://readthedo
 |tutorial_template.md|Edit this template to create a tutorial|documents written in markdown will need to be covered to restructured text|
 |quickstart_template.md|Edit this template to create a quickstart|documents written in markdown will need to be covered to restructured text|
 |/img (folder)|Place images for your tutorials here|CyVerse logos and other useful images are already here| 
-|/slides (folder)|Place slides associated with your tutorial here|Version controlled files preferred, PPT acceptable|
+|/slides (folder)|Place slides associated with your tutorial here|version controlled files preferred, PPT acceptable|
 |/workflows (folder)|Version-controlled workflows built with yED||
-|/misc (folder)|miscelaneous items associated with this tutorial| If at all possible, files should be hosted (with anonymous access) at the CyVerse public Data Commons site. A sample **config.py** file is located here|
-|License.md|License|This license file applies to all materials created by CyVerse for this documentation|
+|/misc (folder)|miscelaneous items associated with this tutorial| if at all possible, files should be hosted (with anonymous access) at the CyVerse public Data Commons site. A sample **config.py** file is located here|
+|License.md|License|this license file applies to all materials created by CyVerse for this documentation|
 |Contributors_maintainers.md|Contact information and recognition||
 
 
@@ -56,7 +56,7 @@ Each CyVerse Tutorial or Quick Start has its own [ReadtheDocs](https://readthedo
 ## Building a Tutorial from Scratch
 
 1. Starting from the chosen template, write the tutorial. 
-    - free favorite markdown editors: 
+    - free markdown editors: 
         - http://macdown.uranusjr.com/ (mac)
         - http://markdownpad.com/ (windows)
 2. Save the tutorial and related files to their respective directories in the repo. 
