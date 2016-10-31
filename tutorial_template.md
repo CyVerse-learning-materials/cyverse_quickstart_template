@@ -1,6 +1,6 @@
 <!---
 
-Images can be added in-line as a reStructured text substitution, but will not render in markdown. See reStructured text example. http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions
+Images can be added in-line as a reStructured text substitution, but will not render in Markdown. See reStructured text example. http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions
 
 |CyVerse logo|
 
@@ -12,16 +12,16 @@ Images can be added in-line as a reStructured text substitution, but will not re
 ## Goal
 
 <!---
-Avoid covering upstream and downstream steps that are not explicitly and necessarily part of the tutorial - write or link to separate quick starts/tutorials for those parts
+Avoid covering upstream and downstream steps that are not explicitly and necessarily part of the tutorial - write or link to separate quick starts/tutorials for those steps.
 --->
 
 <!---
-A few sentences (50 words or less) describing the ultimate goal of the steps in this tutorial
+A few sentences (50 words or less) describing the ultimate goal of the steps in this tutorial.
 --->
 
 ## Prerequisites
 <!---
-Short description
+Insert short description
 --->
 
 
@@ -34,11 +34,11 @@ Short description
 ||||
 
 <!---
-Short description
+Insert short description
 --->
 
 <!---
-*you may want fine the following tutorials useful for completing this one:*
+*You may find the following tutorials useful for completing this one:*
 
 |Related tutorial|Description|Link|
 |----------------|-----------|----|
@@ -54,7 +54,7 @@ Links to papers, SRA, etc.
 
 ### Downloads, access, and services
 
-*In order to complete this tutorial may also need:*
+*In order to complete this tutorial you may also need:*
 
 |Prerequisite|Preparation/Notes|Link/Download|
 |------------|-----------------|-------------|
@@ -65,7 +65,7 @@ Links to papers, SRA, etc.
 ### Platform(s)
 
 <!---
-Keep only the relevant entries and delete the remaining
+Keep only the relevant entries and delete/hide the remaining
 --->
 
 *We will use the following CyVerse platform(s):*
@@ -73,7 +73,7 @@ Keep only the relevant entries and delete the remaining
 |Platform|Interface|Link|Platform Documentation|
 |--------|---------|----|----------------------|
 |Discovery Environment|Web/Point-and-click|[Discovery Environment](https://de.iplantcollaborative.org)|[Manual](https://pods.iplantcollaborative.org/wiki/display/DEmanual/Table+of+Contents)|
-|Atmosphere|Command-line (ssh) and/or Desktop (VNC)|[Atmosphre](https://atmo.cyverse.org)|[Manual](https://pods.iplantcollaborative.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents)|
+|Atmosphere|Command-line (ssh) and/or Desktop (VNC)|[Atmosphere](https://atmo.cyverse.org)|[Manual](https://pods.iplantcollaborative.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents)|
 |BisQUE|Web/Point-and-click and/or Command-line (API)|[BisQUE](http://bisque.iplantcollaborative.org/client_service)|[Manual](https://pods.iplantcollaborative.org/wiki/display/BIS)|
 |DNA Subway|Web/Point-and-click|[DNA Subway](http://dnasubway.iplantcollaborative.org/)|[Manual](http://dnasubway.iplantcollaborative.org/files/pdf/DNA_Subway_Guide.pdf)|
 |Agave API|Command-line (API)|[Agave API](https://agaveapi.co)|[Live Docs](https://agaveapi.co)|
@@ -84,12 +84,12 @@ Keep only the relevant entries and delete the remaining
 ## Overview
 
 <!---
-Text and workflow image go here. Using reStructured text we can place a link to an image in pipes (label images 'image n' starting with n=0). At the end of the document add the image names, links, and parameters. 
+Text and workflow image go here. Using reStructured text, we can place a link to an image in pipe form (label images 'image n' with n=0 being image 0 and so on). At the end of the document add the image names, links, and parameters. 
 --->
 
 <!---
 
-Images can be added in-line as a reStructured text substitution, but will not render in markdown. See reStructured text example. http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions
+Images can be added in-line as a reStructured text substitution, but will not render in Markdown. See reStructured text example here. http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions
 
 |image 0|
 
@@ -100,7 +100,7 @@ Images can be added in-line as a reStructured text substitution, but will not re
 **Discovery Environment App(s):**
 
 <!---
-inks to APPs in the DE are found by clicking the INFO button; App URL
+Links to Apps in the DE which are found by clicking the INFO button; select and copy App URL
 --->
 
 |App name|Version|Description|App Link|
@@ -132,9 +132,9 @@ Style recommendations for DE:
 3. Buttons and key words in bold:
     "Click on **Apps**" or "Select **Arabidopsis**"
 
-4. App accordion menu titles in double quotes
+4. App accordion menu titles in double quotes " "
 
-5. App header description in single quotes
+5. App header description in single quotes ' '
 
 --->
 
@@ -147,10 +147,10 @@ Style recommendations for DE:
 --->
 
 
-**Inputs:**
+**Input(s):**
 
-|File|Description|Example input|
-|----|-----------|-------------|
+|File|Description|Example input(s)|
+|----|-----------|----------------|
 |file.extenstion|.extension file (required)||
 ||||
 
@@ -163,10 +163,10 @@ Steps and text go here
 	You can insert reStructured text directives in the Markdown. The formatting will have to be fixed later in the .rst document see [rst docs](http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions)
 --->
 
-**Outputs:**
+**Output(s):**
 
-|File|Description|Example output|
-|----|-----------|--------------|
+|File|Description|Example output(s)|
+|----|-----------|-----------------|
 ||||
 
 ---
@@ -179,20 +179,20 @@ Steps and text go here
 --->
 
 
-**Inputs:**
+**Input(s):**
 
-|File|Description|Example input|
-|----|-----------|-------------|
+|File|Description|Example input(s)|
+|----|-----------|----------------|
 ||||
 
 <!---
 Steps and text go here
 --->
 
-**Outputs:**
+**Output(s):**
 
-|File|Description|Example output|
-|----|-----------|--------------|
+|File|Description|Example output(s)|
+|----|-----------|-----------------|
 ||||
 
 ---
@@ -205,20 +205,20 @@ Steps and text go here
 --->
 
 
-**Inputs:**
+**Input(s):**
 
-|File|Description|Example input|
-|----|-----------|-------------|
+|File|Description|Example input(s)|
+|----|-----------|----------------|
 ||||
 
 <!---
 Steps and text go here
 --->
 
-**Outputs:**
+**Output(s):**
 
-|File|Description|Example output|
-|----|-----------|--------------|
+|File|Description|Example output(s)|
+|----|-----------|-----------------|
 ||||
 
 ---
@@ -231,10 +231,10 @@ Steps and text go here
 --->
 
 
-**Inputs:**
+**Input(s):**
 
-|File|Description|Example input|
-|----|-----------|-------------|
+|File|Description|Example input(s)|
+|----|-----------|----------------|
 ||||
 
 <!---
@@ -243,8 +243,8 @@ Steps and text go here
 
 **Outputs:**
 
-|File|Description|Example output|
-|----|-----------|--------------|
+|File|Description|Example output(s)|
+|----|-----------|-----------------|
 ||||
 
 
