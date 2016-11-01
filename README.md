@@ -28,7 +28,7 @@ Each CyVerse Tutorial or Quick Start has its own [ReadtheDocs](https://readthedo
 |/img (folder)|Place images for your tutorials here|CyVerse logos and other useful images are already here| 
 |/slides (folder)|Place slides associated with your tutorial here|version controlled files preferred, PPT acceptable|
 |/workflows (folder)|Version-controlled workflows built with yED||
-|/misc (folder)|miscelaneous items associated with this tutorial| if at all possible, files should be hosted (with anonymous access) at the CyVerse public Data Commons site. A sample **config.py** file is located here|
+|/misc (folder)|miscellaneous items associated with this tutorial| if at all possible, files should be hosted (with anonymous access) at the CyVerse public Data Commons site. A sample **config.py** file is located here|
 |License.md|License|this license file applies to all materials created by CyVerse for this documentation|
 |Contributors_maintainers.md|Contact information and recognition||
 
@@ -93,19 +93,15 @@ If you want to go beyond just creating a markdown file, you will need to install
     *'name_quick_start'* or *'name_tutorial'*
 2. Edit the **markdown version** of the template you are working from. Save images or other files in the appropriate directories. 
 3. Delete unused templates. We will have **only one tutorial or quick start per repo.**
-4. Save your markdown as  *'name_quickstart.md'* or *'name_tutorialmd'*
+4. Save your markdown as  *'name_quickstart.md'* or *'name_tutorial.md'*
 5. In the repo directory start the process of building the tutorial files:
         
-        $ sphinx-quickstart --project= 'title_of_your_tutorial_or_quick start'  --author="your_name" --release=1.0
+        $ sphinx-quickstart --project= 'title_of_your_tutorial_or_quick start'  --author="your_name" -v=1.0
         # you may accept most defaults (by hitting enter)
         # Enter the following values as prompted
         # Project name: the title of your tutorial/quick start
         # Author name(s): your name
-        # Project version: 1.0 (all new tutorials start with v 1.0)
-        
-    Among other things, this will create a *'config.py'* file. We have                 
-    provided a sample  *'config.py'* file in the */misc* folder which you 
-    could also edit and replace. 
+        # Project version: 1.0 (all new tutorials start with v 1.0)       
 6. Install the Read the Docs Sphinx theme:
     
         $ pip install sphinx_rtd_theme
@@ -115,12 +111,17 @@ If you want to go beyond just creating a markdown file, you will need to install
 
     For convenience, the templates have a few ReStructured text elements that         
     may not be properly converted by Pandoc. You will need to check the converted ReStructured text. You can use an online viewer [http://rst.ninjs.org/](http://rst.ninjs.org/) or you can view live changes using restview [http://rst.ninjs.org/](http://rst.ninjs.org/)
-8. Build the tutorial:
+7. You may need to edit the *'config.py'* file to change the following lines:
+     - (line 113) html_theme = 'sphinx_rtd_theme'
+     - (line 52) copyright = 'YEAR, CyVerse'
+    
+    We have provided a sample  *'config.py'* file in the */misc* folder which you could also edit and replace.    
+9. Build the tutorial:
 
         $ make html
-9. Your HTML site will be in the _build directory that has been created. 
-10. Commit your changes and push the tutorial back to GitHub.
-11. Notify [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org) that your tutorial is ready for inclusion in the main CyVerse documentation repo. We will review and verify the contribution, and add you as a maintainer repo in the CyVerse collection. You should make future edits following the instructions above for 'Fixing and/or improving documentation via GitHub.' Alternatively, you can host your tutorial independently on ReadTheDocs following their [instructions for importing documentation](https://docs.readthedocs.io/en/latest/getting_started.html#import-your-docs). 
+10. Your HTML site will be in the _build directory that has been created. 
+11. Commit your changes and push the tutorial back to GitHub.
+12. Notify [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org) that your tutorial is ready for inclusion in the main CyVerse documentation repo. We will review and verify the contribution, and add you as a maintainer repo in the CyVerse collection. You should make future edits following the instructions above for 'Fixing and/or improving documentation via GitHub.' Alternatively, you can host your tutorial independently on ReadTheDocs following their [instructions for importing documentation](https://docs.readthedocs.io/en/latest/getting_started.html#import-your-docs). 
 
 
 ## Other tutorial elements

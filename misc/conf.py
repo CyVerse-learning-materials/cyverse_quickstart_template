@@ -48,7 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'YOUR PROJECT NAME HERE as name_quick_start or name_tutorial'
+project = 'YOUR PROJECT NAME HERE as topic_quick_start or topic_tutorial'
 copyright = '2016, CyVerse'
 author = 'Jason Williams'
 
