@@ -102,7 +102,7 @@ If you want to go beyond just creating a markdown file, you will need to install
         # Project name: the title of your tutorial/quick start
         # Author name(s): your name
         # Project version: 1.0 (all new tutorials start with v 1.0)       
-6. Install the Read the Docs Sphinx theme:
+6. If you have not done so previously, install the Read the Docs Sphinx theme:
     
         $ pip install sphinx_rtd_theme
 7. Convert the markdown file to ReStructured text file (which we will call *index.rst*) using Pandoc:
@@ -111,10 +111,9 @@ If you want to go beyond just creating a markdown file, you will need to install
 
     For convenience, the templates have a few ReStructured text elements that may not be properly converted by Pandoc. You will need to check the converted ReStructured text. You can use an online viewer [http://rst.ninjs.org/](http://rst.ninjs.org/) or you can view live changes using restview [http://rst.ninjs.org/](http://rst.ninjs.org/)
 7. You may need to edit the *'conf.py'* file to change the following lines:
-     - (line 113) html_theme = 'sphinx_rtd_theme'
      - (line 52) copyright = 'YEAR, CyVerse'
-    
-    We have provided a sample  *'conf.py'* file in the */misc* folder which you could also edit and replace.    
+     - (line 113) html_theme = 'sphinx_rtd_theme'
+   We have provided a sample  *'conf.py'* file in the */misc* folder which you could also edit and replace.    
 9. Build the tutorial:
 
         $ make html
