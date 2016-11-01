@@ -68,9 +68,10 @@ If you want to go beyond just creating a markdown file, you will need to install
     - https://www.python.org/downloads/
 3. If needed, install pip: 
     - https://packaging.python.org/installing/#install-pip-setuptools-and-wheel
-4. Sphinx - This will build our tutorials into HTML and other formats (this uses the Python package installer 'pip' so Python must be installed first)
+4. Sphinx - This will build our tutorials into HTML and other formats (this uses the Python package installer 'pip' so Python must be installed first); we will also install the theme we need for our documentation
         
         $pip install sphinx sphinx-autobuild
+        $ pip install sphinx_rtd_theme
 5. Pandoc - This will convert Markdown into ReStructured text
     - http://pandoc.org/installing.html
 6. RestView - Optional, but makes it easy to preview ReStructured text files
@@ -102,10 +103,7 @@ If you want to go beyond just creating a markdown file, you will need to install
         # Project name: the title of your tutorial/quick start
         # Author name(s): your name
         # Project version: 1.0 (all new tutorials start with v 1.0)       
-6. If you have not done so previously, install the Read the Docs Sphinx theme:
-    
-        $ pip install sphinx_rtd_theme
-7. Convert the markdown file to ReStructured text file (which we will call *index.rst*) using Pandoc:
+6. Convert the markdown file to ReStructured text file (which we will call *index.rst*) using Pandoc:
 
         $ pandoc -f markdown -t rst -o index.rst your_file_name.md    
 
@@ -114,12 +112,12 @@ If you want to go beyond just creating a markdown file, you will need to install
      - (line 52) copyright = 'YEAR, CyVerse'
      - (line 113) html_theme = 'sphinx_rtd_theme'
    We have provided a sample  *'conf.py'* file in the */misc* folder which you could also edit and replace.    
-9. Build the tutorial:
+8. Build the tutorial:
 
         $ make html
-10. Your HTML site will be in the _build directory that has been created. 
-11. Commit your changes and push the tutorial back to GitHub.
-12. Notify [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org) that your tutorial is ready for inclusion in the main CyVerse documentation repo. We will review and verify the contribution, and add you as a maintainer repo in the CyVerse collection. You should make future edits following the instructions above for 'Fixing and/or improving documentation via GitHub.' Alternatively, you can host your tutorial independently on ReadTheDocs following their [instructions for importing documentation](https://docs.readthedocs.io/en/latest/getting_started.html#import-your-docs). 
+9. Your HTML site will be in the _build directory that has been created. 
+10. Commit your changes and push the tutorial back to GitHub.
+11. Notify [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org) that your tutorial is ready for inclusion in the main CyVerse documentation repo. We will review and verify the contribution, and add you as a maintainer repo in the CyVerse collection. You should make future edits following the instructions above for 'Fixing and/or improving documentation via GitHub.' Alternatively, you can host your tutorial independently on ReadTheDocs following their [instructions for importing documentation](https://docs.readthedocs.io/en/latest/getting_started.html#import-your-docs). 
 
 
 ## Other tutorial elements
