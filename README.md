@@ -103,9 +103,7 @@ If you want to go beyond just creating a markdown file, you will need to install
         # Author name(s): your name
         # Project version: 1.0 (all new tutorials start with v 1.0)
         
-    Among other things, this will create a *'config.py'* file. We have                 
-    provided a sample  *'config.py'* file in the */misc* folder which you 
-    could also edit and replace. 
+  Among other things, this will create a *'config.py'* file. We have provided a sample  *'config.py'* file in the */misc* folder which     you could also edit and replace. 
 6. Install the Read the Docs Sphinx theme:
     
         $ pip install sphinx_rtd_theme
