@@ -9,7 +9,7 @@ Each CyVerse Tutorial or Quick Start has its own [ReadtheDocs](https://readthedo
 ## Documentation types
 
 - **Tutorials:** Tutorials teach. Users should be able to follow an example dataset through the steps of a tutorial and gain understanding about what is happening along those steps. These are in-depth guides that usually address a scientific question by covering the major steps of a scientific workflow. A tutorial is ‘successful’ when a user is able to follow the tutorial a second time with their own data and obtain reasonable results.
-- **Quick Starts:** These materials are short tutorials that cover the minimal amount of needed to complete an **operational task** (e.g. uploading data, reformatting a file, etc. ); there is no significant explanation of the science or interpretation of results. QSs highlight available resources, answer common questions (derived from user forum), and refer users to the most appropriate materials.
+- **Quick Starts:** These materials are short tutorials that cover the minimal amount of information needed to complete an **operational task** (e.g. uploading data, reformatting a file, etc. ); there is no significant explanation of the science or interpretation of results. QSs highlight available resources, answer common questions (derived from user forum), and refer users to the most appropriate materials.
 
 **Examples:**
 
@@ -103,7 +103,9 @@ If you want to go beyond just creating a markdown file, you will need to install
         # Author name(s): your name
         # Project version: 1.0 (all new tutorials start with v 1.0)
         
-  Among other things, this will create a *'config.py'* file. We have provided a sample  *'config.py'* file in the */misc* folder which     you could also edit and replace. 
+    Among other things, this will create a *'config.py'* file. We have                 
+    provided a sample  *'config.py'* file in the */misc* folder which you 
+    could also edit and replace. 
 6. Install the Read the Docs Sphinx theme:
     
         $ pip install sphinx_rtd_theme
