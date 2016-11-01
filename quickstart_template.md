@@ -76,20 +76,19 @@ Summary a--->
 
 **Next Steps:**
 
----
-## More help/additional information
+
+## More help and additional information
 
 <!---
 Short description and links to any reading materials
 --->
 
-- **Search for an answer:** [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [CyVerse Wiki](https://wiki.cyverse.org/wiki/dashboard.action)
-- **Post your question to the user forum:** [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)
+- **Search for an answer:** [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [CyVerse Wiki](https://wiki.cyverse.org)
+- **Post your question to the user forum:** [Ask CyVerse](http://ask.iplantcollaborative.org/questions)
 
 ### Fix or improve this tutorial 
 
-
-- **Fix this tutorial on GitHub:** [GitHub](Link_to_gh_readme)
+- **Fix this tutorial on GitHub:** [GitHub](FIX_THIS_IN_YOUR_DOCUMENTATION)
 - **Send a note:** [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org)
 
 <!---
