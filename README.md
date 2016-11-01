@@ -55,45 +55,73 @@ Each CyVerse Tutorial or Quick Start has its own [ReadtheDocs](https://readthedo
 
 ## Building a Tutorial from Scratch
 
-1. Starting from the chosen template, write the tutorial. 
+If you want to go beyond just creating a markdown file, you will need to install some software. 
+
+**You will need the following software**
+
+1. Markdown Editor - Optional, but makes it easy to preview the markdown
     - free markdown editors: 
-        - http://macdown.uranusjr.com/ (mac)
-        - http://markdownpad.com/ (windows)
-2. Save the tutorial and related files to their respective directories in the repo. 
-3. Install sphinx
-    ```
-    $pip install sphinx sphinx-autobuild
-    ```
-2. Create a directory for your tutorial; at this time you might want to [initialize a git repository](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/).
-3. In the new directory, start the process of building sphinx pages
-    ```
-    $ sphinx-quickstart
-    # you may accept all defaults
-    ```
-4. You will now have a placeholder 'index.rst' file which will be the page for your tutorial
-5. Convert the markdown file to restructured text using pandoc
-    - install pandoc; see http://pandoc.org/installing.html or if you have homebrew:
-        ```
-        $ brew install pandoc
-        ```
-    - Convert from markdown to restructured text (here making the output file index.rst
-        ```
-        $ pandoc -f markdown -t rst -o index.rst your_file_name.md
-        ```
-    - There don't seem to be too many nice ways to preview the restructured text to check for broken formatting /conversion errors. You can use an online viewer (http://rst.ninjs.org/) or you can view live changes using restview (https://mg.pov.lt/restview/)
-6. Change the the following defaults in the `config.py1` file to the following: 
-    a. line 113: html_theme = 'sphinx_rtd_theme'
-    b. line 52: copyright = '2016, CyVerse'
-    c. line 53: author = 'your_name'
+        - MacDown(mac): http://macdown.uranusjr.com/ 
+        - Markdown Pad(windows): http://markdownpad.com/ 
+        - ReText(linux): https://github.com/retext-project/retext 
+2. Python - This is required for the Sphinx package that will build our documentation:
+    - https://www.python.org/downloads/
+3. Sphinx - This will build our tutorials into HTML and other formats (this uses the Python package installer 'pip' so Python must be installed first)
+        
+        $pip install sphinx sphinx-autobuild
+4. Pandoc - This will convert Markdown into ReStructured text
+    - http://pandoc.org/installing.html
+5. RestView - Optional, but makes it easy to preview ReStructured text files
+    - http://rst.ninjs.org/
+6. git - We use git to version control our documentation and manage with GitHub
+    - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+
+**You will need the following accounts**
+
+1. GitHub account - Will make it possible to collaborate on the documentation:
+    - https://github.com/
+    
+
+### Procedure 
+
+1. Import the CyVerse base tutorial repo following GitHub's directions here: https://help.github.com/articles/importing-a-repository-with-github-importer/
+    a. The CyVerse base tutorial repo URL is **XXXXXX**
+    b. Name your repo for the name of your quick start or tutorial, e.g. 
+    *'name_quick_start'* or *'name_tutorial'*
+2. Edit the **markdown version** of the template you are working from. Save an images or other files in the appropriate directories. You may delete unused templates. We will have **only one tutorial or quick start per repo.**
+3. Save your markdown as  *'name_quick_start'* or *'name_tutorial'*
+4. In the repo directory start the process of building the tutorial files:
+        
+        $ sphinx-quickstart
+        # you may accept most defaults (by hitting enter)
+        # Enter the following values as prompted
+        # Project name: the title of your tutorial/quick start
+        # Author name(s): your name
+        # Project version: 1.0 (all new tutorials start with v 1.0)
+        
+    Among other things, this will create a *'config.py'* file. We have                 
+    provided a sample  *'config.py'* file in the */misc* folder which you 
+    could also edit and replace. 
+5. Install the Read the Docs Sphinx theme:
+    
+        $ pip install sphinx_rtd_theme
+6. Convert the markdown file to restructured text file (which we will call *index.rst*) using Pandoc:
+
+        $ pandoc -f markdown -t rst -o index.rst your_file_name.md    
+
+    For convenience, the templates have a few ReStructured text elements     
+    that may not be properly converted by Pandoc. You will need to check 
+    the converted ReStructured text. You can use an online viewer [http://
+    rst.ninjs.org/](http://rst.ninjs.org/) or you can view live changes 
+    using restview [http://rst.ninjs.org/](http://rst.ninjs.org/)
 7. Build the tutorial:
-    ```
-    $ make html
-    ```
+
+        $ make html
 8. Your HTML site will be in the _build directory that has been created. 
-9. Push the tutorial to a repo in Github.
-9. In the GitHub repo settings, under 'Integrations & services' go to 'Add service' and add 'ReadTheDocs'
-10. Go to http://readthedocs.org/ sign-in; follow the directions to add/create a project and use your repo at the URL to import from. 
-11. You should now have a site for your documentation. 
+9. Commit your changes and push the tutorial back to GitHub.
+10. Notify [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org) that your tutorial is ready for inclusion in the main CyVerse documentation repo. We will review and verify the contribution. Alternatively, you can host your tutorial independently on ReadTheDocs following their [instructions for importing documentation](https://docs.readthedocs.io/en/latest/getting_started.html#import-your-docs). 
+
 
 ## Other tutorial elements
 
