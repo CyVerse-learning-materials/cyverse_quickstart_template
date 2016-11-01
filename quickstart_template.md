@@ -6,8 +6,10 @@ Images can be added in-line as a reStructured text substitution, but will not re
 
 --->
 
-#Quick Start Name
-
+#Quick Start name
+<!---
+Use short, imperative titles e.g. Upload and share data, uploading and sharing data
+--->
 
 ## Goal
 
@@ -30,19 +32,19 @@ A few sentences (50 words or less) describing the ultimate goal of the steps in 
 |------------|-----------------|-------------|
 |CyVerse account|You will need a CyVerse account to complete this exercise|[Register](https://user.cyverse.org/)|
 |Atmosphere access|You must have access to Atmosphere|[Request Access](http://www.cyverse.org/learning-center/manage-account#AddAppsServices)|
-|Cyberduck|Stand alone software for upload/download to Data Store|[Download](https://cyberduck.io/)|
+|Cyberduck|Standalone software for upload/download to Data Store|[Download](https://cyberduck.io/)|
 
 ### Platform(s)
 
 *We will use the following CyVerse platform(s):*
 
-|Platform|Interface|Link|Platform Documentation|
-|--------|---------|----|----------------------|
-|Discovery Environment|Web/Point-and-click|[Discovery Environment](https://de.iplantcollaborative.org)|[Manual](https://pods.iplantcollaborative.org/wiki/display/DEmanual/Table+of+Contents)|
-|Atmosphere|Command-line (ssh) and/or Desktop (VNC)|[Atmosphre](https://atmo.cyverse.org)|[Manual](https://pods.iplantcollaborative.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents)|
-|BisQUE|Web/Point-and-click and/or Command-line (API)|[BisQUE](http://bisque.iplantcollaborative.org/client_service)|[Manual](https://pods.iplantcollaborative.org/wiki/display/BIS)|
-|DNA Subway|Web/Point-and-click|[DNA Subway](http://dnasubway.iplantcollaborative.org/)|[Manual](http://dnasubway.iplantcollaborative.org/files/pdf/DNA_Subway_Guide.pdf)|
-|Agave API|Command-line (API)|[Agave API](https://agaveapi.co)|[Live Docs](https://agaveapi.co)|
+|Platform|Interface|Link|Platform Documentation|Quick Start|
+|--------|---------|----|----------------------|-----------|
+|Discovery Environment|Web/Point-and-click|[Discovery Environment](https://de.iplantcollaborative.org)|[Manual](https://pods.iplantcollaborative.org/wiki/display/DEmanual/Table+of+Contents)|[Quick Start]()
+|Atmosphere|Command-line (ssh) and/or Desktop (VNC)|[Atmosphere](https://atmo.cyverse.org)|[Manual](https://pods.iplantcollaborative.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents)|[Quick Start]()|
+|BisQue|Web/Point-and-click and/or Command-line (API)|[BisQue](http://bisque.iplantcollaborative.org/client_service)|[Manual](https://pods.iplantcollaborative.org/wiki/display/BIS)|[Quick Start]()|
+|DNA Subway|Web/Point-and-click|[DNA Subway](http://dnasubway.iplantcollaborative.org/)|[Manual](http://dnasubway.iplantcollaborative.org/files/pdf/DNA_Subway_Guide.pdf)|[Quick Start]()|
+|Agave API|Command-line (API)|[Agave API](https://agaveapi.co)|[Live Docs](https://agaveapi.co)|[Quick Start]()|
 
 ### Input and example data
 
@@ -55,7 +57,7 @@ A few sentences (50 words or less) describing the ultimate goal of the steps in 
 
 ---
 
-## Get Started
+## Get started
 
 <!---
 Steps and text go here
@@ -81,18 +83,18 @@ Summary a--->
 Short description and links to any reading materials
 --->
 
-**Search for an answer:** [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [Wiki](https://wiki.cyverse.org/wiki/dashboard.action)
-**Post your question to the user forum:** [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)
+- **Search for an answer:** [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [CyVerse Wiki](https://wiki.cyverse.org/wiki/dashboard.action)
+- **Post your question to the user forum:** [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)
 
 ### Fix or improve this tutorial 
 
 
-**Fix this tutorial on GitHub:** [GitHub](Link_to_gh_readme)
-**Send a note to support:** [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org)
+- **Fix this tutorial on GitHub:** [GitHub](Link_to_gh_readme)
+- **Send a note:** [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org)
 
 <!---
 
-SAMPLE DIRECTIVES (DELETE UNSUED ONES)
+SAMPLE DIRECTIVES (DELETE UNUSED ONES)
 --------------------------------------
 
 See: http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions
@@ -124,5 +126,4 @@ See: http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500
     :height: 100
-
 --->

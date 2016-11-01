@@ -35,9 +35,9 @@ Each CyVerse Tutorial or Quick Start has its own [ReadtheDocs](https://readthedo
 
 ## Simple contribution instructions
 
-### Reporting an error via GitHub
+### Reporting an error or issue via GitHub
 
-- Click 'issues' at the top of this GitHub page to let us know about a simple mistake such as a typo or missing file. 
+- Click the 'issues' tab at the top of this GitHub page to let us know about a simple mistake such as a typo or missing file. 
  
  OR
  
@@ -64,16 +64,18 @@ If you want to go beyond just creating a markdown file, you will need to install
         - MacDown(mac): http://macdown.uranusjr.com/ 
         - Markdown Pad(windows): http://markdownpad.com/ 
         - ReText(linux): https://github.com/retext-project/retext 
-2. Python - This is required for the Sphinx package that will build our documentation:
+2. Python (2.7.9 or later) - This is required for the Sphinx package that will build our documentation:
     - https://www.python.org/downloads/
-3. Sphinx - This will build our tutorials into HTML and other formats (this uses the Python package installer 'pip' so Python must be installed first)
+3. If needed, install pip: 
+    - https://packaging.python.org/installing/#install-pip-setuptools-and-wheel
+4. Sphinx - This will build our tutorials into HTML and other formats (this uses the Python package installer 'pip' so Python must be installed first)
         
         $pip install sphinx sphinx-autobuild
-4. Pandoc - This will convert Markdown into ReStructured text
+5. Pandoc - This will convert Markdown into ReStructured text
     - http://pandoc.org/installing.html
-5. RestView - Optional, but makes it easy to preview ReStructured text files
+6. RestView - Optional, but makes it easy to preview ReStructured text files
     - http://rst.ninjs.org/
-6. git - We use git to version control our documentation and manage with GitHub
+7. git - We use git to version control our documentation and manage with GitHub
     - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 
@@ -89,11 +91,12 @@ If you want to go beyond just creating a markdown file, you will need to install
     - The CyVerse base tutorial repo URL is **XXXXXX**
     - Name your repo for the name of your quick start or tutorial, e.g. 
     *'name_quick_start'* or *'name_tutorial'*
-2. Edit the **markdown version** of the template you are working from. Save an images or other files in the appropriate directories. You may delete unused templates. We will have **only one tutorial or quick start per repo.**
-3. Save your markdown as  *'name_quick_start'* or *'name_tutorial'*
-4. In the repo directory start the process of building the tutorial files:
+2. Edit the **markdown version** of the template you are working from. Save images or other files in the appropriate directories. 
+3. Delete unused templates. We will have **only one tutorial or quick start per repo.**
+4. Save your markdown as  *'name_quickstart.md'* or *'name_tutorialmd'*
+5. In the repo directory start the process of building the tutorial files:
         
-        $ sphinx-quickstart
+        $ sphinx-quickstart --project= 'title_of_your_tutorial_or_quick start'  --author="your_name" --release=1.0
         # you may accept most defaults (by hitting enter)
         # Enter the following values as prompted
         # Project name: the title of your tutorial/quick start
@@ -103,24 +106,21 @@ If you want to go beyond just creating a markdown file, you will need to install
     Among other things, this will create a *'config.py'* file. We have                 
     provided a sample  *'config.py'* file in the */misc* folder which you 
     could also edit and replace. 
-5. Install the Read the Docs Sphinx theme:
+6. Install the Read the Docs Sphinx theme:
     
         $ pip install sphinx_rtd_theme
-6. Convert the markdown file to restructured text file (which we will call *index.rst*) using Pandoc:
+7. Convert the markdown file to ReStructured text file (which we will call *index.rst*) using Pandoc:
 
         $ pandoc -f markdown -t rst -o index.rst your_file_name.md    
 
-    For convenience, the templates have a few ReStructured text elements     
-    that may not be properly converted by Pandoc. You will need to check 
-    the converted ReStructured text. You can use an online viewer [http://
-    rst.ninjs.org/](http://rst.ninjs.org/) or you can view live changes 
-    using restview [http://rst.ninjs.org/](http://rst.ninjs.org/)
-7. Build the tutorial:
+    For convenience, the templates have a few ReStructured text elements that         
+    may not be properly converted by Pandoc. You will need to check the converted ReStructured text. You can use an online viewer [http://rst.ninjs.org/](http://rst.ninjs.org/) or you can view live changes using restview [http://rst.ninjs.org/](http://rst.ninjs.org/)
+8. Build the tutorial:
 
         $ make html
-8. Your HTML site will be in the _build directory that has been created. 
-9. Commit your changes and push the tutorial back to GitHub.
-10. Notify [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org) that your tutorial is ready for inclusion in the main CyVerse documentation repo. We will review and verify the contribution. Alternatively, you can host your tutorial independently on ReadTheDocs following their [instructions for importing documentation](https://docs.readthedocs.io/en/latest/getting_started.html#import-your-docs). 
+9. Your HTML site will be in the _build directory that has been created. 
+10. Commit your changes and push the tutorial back to GitHub.
+11. Notify [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org) that your tutorial is ready for inclusion in the main CyVerse documentation repo. We will review and verify the contribution, and add you as a maintainer repo in the CyVerse collection. You should make future edits following the instructions above for 'Fixing and/or improving documentation via GitHub.' Alternatively, you can host your tutorial independently on ReadTheDocs following their [instructions for importing documentation](https://docs.readthedocs.io/en/latest/getting_started.html#import-your-docs). 
 
 
 ## Other tutorial elements

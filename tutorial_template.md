@@ -6,8 +6,10 @@ Images can be added in-line as a reStructured text substitution, but will not re
 
 --->
 
-#Tutorial Name
-
+#Tutorial name
+<!---
+Use short, imperative titles e.g. Upload and share data, uploading and sharing data
+--->
 
 ## Goal
 
@@ -70,13 +72,13 @@ Keep only the relevant entries and delete/hide the remaining
 
 *We will use the following CyVerse platform(s):*
 
-|Platform|Interface|Link|Platform Documentation|
-|--------|---------|----|----------------------|
-|Discovery Environment|Web/Point-and-click|[Discovery Environment](https://de.iplantcollaborative.org)|[Manual](https://pods.iplantcollaborative.org/wiki/display/DEmanual/Table+of+Contents)|
-|Atmosphere|Command-line (ssh) and/or Desktop (VNC)|[Atmosphere](https://atmo.cyverse.org)|[Manual](https://pods.iplantcollaborative.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents)|
-|BisQUE|Web/Point-and-click and/or Command-line (API)|[BisQUE](http://bisque.iplantcollaborative.org/client_service)|[Manual](https://pods.iplantcollaborative.org/wiki/display/BIS)|
-|DNA Subway|Web/Point-and-click|[DNA Subway](http://dnasubway.iplantcollaborative.org/)|[Manual](http://dnasubway.iplantcollaborative.org/files/pdf/DNA_Subway_Guide.pdf)|
-|Agave API|Command-line (API)|[Agave API](https://agaveapi.co)|[Live Docs](https://agaveapi.co)|
+|Platform|Interface|Link|Platform Documentation|Quick Start|
+|--------|---------|----|----------------------|-----------|
+|Discovery Environment|Web/Point-and-click|[Discovery Environment](https://de.iplantcollaborative.org)|[Manual](https://pods.iplantcollaborative.org/wiki/display/DEmanual/Table+of+Contents)|[Quick Start]()
+|Atmosphere|Command-line (ssh) and/or Desktop (VNC)|[Atmosphere](https://atmo.cyverse.org)|[Manual](https://pods.iplantcollaborative.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents)|[Quick Start]()|
+|BisQue|Web/Point-and-click and/or Command-line (API)|[BisQue](http://bisque.iplantcollaborative.org/client_service)|[Manual](https://pods.iplantcollaborative.org/wiki/display/BIS)|[Quick Start]()|
+|DNA Subway|Web/Point-and-click|[DNA Subway](http://dnasubway.iplantcollaborative.org/)|[Manual](http://dnasubway.iplantcollaborative.org/files/pdf/DNA_Subway_Guide.pdf)|[Quick Start]()|
+|Agave API|Command-line (API)|[Agave API](https://agaveapi.co)|[Live Docs](https://agaveapi.co)|[Quick Start]()|
 
 
 ---
@@ -95,22 +97,22 @@ Images can be added in-line as a reStructured text substitution, but will not re
 
 --->
 
-### Apps and Atmosphere images
+### Apps and atmosphere images
 
 **Discovery Environment App(s):**
 
 <!---
-Links to Apps in the DE which are found by clicking the INFO button; select and copy App URL
+Links to Apps in the DE which are found by clicking the INFO button; select and copy App URL. Use DOI links if available, otherwise link to github docker image (See: https://github.com/iPlantCollaborativeOpenSource/docker-builds). 
 --->
 
-|App name|Version|Description|App Link|
-|--------|-------|-----------|--------|
+|App name|Version|Description|App Link|Docker/DOI Link|
+|--------|-------|-----------|--------|---------------|
 |Muscle|3.8.31|Multiple sequence aligner|[App](https://de.iplantcollaborative.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e)
 
 **Atmosphere Image(s):**
 
-|Image name|Version|Description|Link|
-|----------|-------|-----------|----|
+|Image name|Version|Description|Link|Docker/DOI Link|
+|----------|-------|-----------|----|---------------|
 |CyVerse CentOS 6.8 GUI Base|1.0|base image CentOS 6.8 with GNOME GUI|[Image](https://atmo.cyverse.org/application/images/1384)|
 
 
@@ -279,19 +281,17 @@ Optional list of one or more FAQ questions
 Short description and links to any reading materials
 --->
 
-**Search for an answer:** [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [Wiki](https://wiki.cyverse.org/wiki/dashboard.action)
-**Post your question to the user forum:** [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)
-
+- **Search for an answer:** [CyVerse Learning Center](http://www.cyverse.org/learning-center) or [CyVerse Wiki](https://wiki.cyverse.org/wiki/dashboard.action)
+- **Post your question to the user forum:** [Ask CyVerse](http://ask.iplantcollaborative.org/questions/)
 
 ### Fix or improve this tutorial 
 
 
-**Fix this tutorial on GitHub:** [GitHub](Link_to_gh_readme)
-**Send a note to support:** [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org)
-
+- **Fix this tutorial on GitHub:** [GitHub](Link_to_gh_readme)
+- **Send a note:** [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org)
 <!---
 
-SAMPLE DIRECTIVES (DELETE UNSUED ONES)
+SAMPLE DIRECTIVES (DELETE UNUSED ONES)
 --------------------------------------
 
 See: http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions
