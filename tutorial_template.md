@@ -107,13 +107,13 @@ Links to Apps in the DE which are found by clicking the INFO button; select and 
 
 |App name|Version|Description|App Link|Docker/DOI Link|
 |--------|-------|-----------|--------|---------------|
-|Muscle|3.8.31|Multiple sequence aligner|[App](https://de.iplantcollaborative.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e)
+|Muscle|3.8.31|Multiple sequence aligner|[App](https://de.iplantcollaborative.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e)||
 
 **Atmosphere Image(s):**
 
 |Image name|Version|Description|Link|Docker/DOI Link|
 |----------|-------|-----------|----|---------------|
-|CyVerse CentOS 6.8 GUI Base|1.0|base image CentOS 6.8 with GNOME GUI|[Image](https://atmo.cyverse.org/application/images/1384)|
+|CyVerse CentOS 6.8 GUI Base|1.0|base image CentOS 6.8 with GNOME GUI|[Image](https://atmo.cyverse.org/application/images/1384)||
 
 
 ## Directions
