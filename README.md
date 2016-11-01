@@ -49,7 +49,7 @@ Each CyVerse Tutorial or Quick Start has its own [ReadtheDocs](https://readthedo
 
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repo to your GitHub account
 2. Make edits directly to the **markdown version** of the documentation if there is one, or if there is no markdown version, edit the version written in restructured text. Edits may be made to the fork the web interface to your GitHub account or [clone](https://help.github.com/articles/cloning-a-repository/) the repo to work on your local computer. For very significant changes (we suggest [making a new branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/). 
-3. Commit change; if working from a local copy, push those changes to your fork in Github
+3. Commit change; if working from a local copy, push those changes to your fork in Github. 
 4. Submit a pull request back to the master repository; you may need to act on feedback before your request is merged. 
 
 
