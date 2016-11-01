@@ -86,8 +86,8 @@ If you want to go beyond just creating a markdown file, you will need to install
 ### Procedure 
 
 1. Import the CyVerse base tutorial repo following GitHub's directions here: https://help.github.com/articles/importing-a-repository-with-github-importer/
-    a. The CyVerse base tutorial repo URL is **XXXXXX**
-    b. Name your repo for the name of your quick start or tutorial, e.g. 
+    - The CyVerse base tutorial repo URL is **XXXXXX**
+    - Name your repo for the name of your quick start or tutorial, e.g. 
     *'name_quick_start'* or *'name_tutorial'*
 2. Edit the **markdown version** of the template you are working from. Save an images or other files in the appropriate directories. You may delete unused templates. We will have **only one tutorial or quick start per repo.**
 3. Save your markdown as  *'name_quick_start'* or *'name_tutorial'*
