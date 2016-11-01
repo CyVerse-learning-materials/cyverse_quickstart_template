@@ -28,7 +28,7 @@ Each CyVerse Tutorial or Quick Start has its own [ReadtheDocs](https://readthedo
 |/img (folder)|Place images for your tutorials here|CyVerse logos and other useful images are already here| 
 |/slides (folder)|Place slides associated with your tutorial here|version controlled files preferred, PPT acceptable|
 |/workflows (folder)|Version-controlled workflows built with yED||
-|/misc (folder)|miscellaneous items associated with this tutorial| if at all possible, files should be hosted (with anonymous access) at the CyVerse public Data Commons site. A sample **config.py** file is located here|
+|/misc (folder)|miscellaneous items associated with this tutorial| if at all possible, files should be hosted (with anonymous access) at the CyVerse public Data Commons site. A sample **conf.py** file is located here|
 |License.md|License|this license file applies to all materials created by CyVerse for this documentation|
 |Contributors_maintainers.md|Contact information and recognition||
 
@@ -109,13 +109,12 @@ If you want to go beyond just creating a markdown file, you will need to install
 
         $ pandoc -f markdown -t rst -o index.rst your_file_name.md    
 
-    For convenience, the templates have a few ReStructured text elements that         
-    may not be properly converted by Pandoc. You will need to check the converted ReStructured text. You can use an online viewer [http://rst.ninjs.org/](http://rst.ninjs.org/) or you can view live changes using restview [http://rst.ninjs.org/](http://rst.ninjs.org/)
-7. You may need to edit the *'config.py'* file to change the following lines:
+    For convenience, the templates have a few ReStructured text elements that may not be properly converted by Pandoc. You will need to check the converted ReStructured text. You can use an online viewer [http://rst.ninjs.org/](http://rst.ninjs.org/) or you can view live changes using restview [http://rst.ninjs.org/](http://rst.ninjs.org/)
+7. You may need to edit the *'conf.py'* file to change the following lines:
      - (line 113) html_theme = 'sphinx_rtd_theme'
      - (line 52) copyright = 'YEAR, CyVerse'
     
-    We have provided a sample  *'config.py'* file in the */misc* folder which you could also edit and replace.    
+    We have provided a sample  *'conf.py'* file in the */misc* folder which you could also edit and replace.    
 9. Build the tutorial:
 
         $ make html
