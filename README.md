@@ -97,7 +97,7 @@ If you want to go beyond just creating a markdown file, you will need to install
 4. Save your markdown as  *'name_quickstart.md'* or *'name_tutorial.md'*
 5. In the repo directory start the process of building the tutorial files:
         
-        $ sphinx-quickstart --project='title_of_your_tutorial_or_quick start' --author="your_name" -v=1.0
+        $ sphinx-quickstart --project='title_of_your_tutorial_or_quick_start' --author="your_name" -v=1.0
         # you may accept most defaults (by hitting enter)
         # Enter the following values as prompted
         # Project name: the title of your tutorial/quick start
