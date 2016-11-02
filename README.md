@@ -73,9 +73,8 @@ If you want to go beyond just creating a markdown file, you will need to install
         $ pip install sphinx sphinx-autobuild sphinx_rtd_theme
 5. Pandoc - This will convert Markdown into ReStructured text
     - http://pandoc.org/installing.html
-6. RestView - Optional, but makes it easy to preview ReStructured text files
-    - http://rst.ninjs.org/ or to install:
-        
+6. RestView - Optional, but makes it easy to preview ReStructured text files [http://rst.ninjs.org/](http://rst.ninjs.org/) or install:
+
         $ pip install restview 
 7. git - We use git to version control our documentation and manage with GitHub
     - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
