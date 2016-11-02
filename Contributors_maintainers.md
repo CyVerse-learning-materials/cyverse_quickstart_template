@@ -10,4 +10,4 @@
 |Name|Contact Info|Institution|Notes|
 |----|------------|-----------|-----|
 |||||
-|||||
+|Joslynn Lee|@josleecshl|Cold Spring Harbor Laboratory||
