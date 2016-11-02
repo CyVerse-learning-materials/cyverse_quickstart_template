@@ -74,7 +74,9 @@ If you want to go beyond just creating a markdown file, you will need to install
 5. Pandoc - This will convert Markdown into ReStructured text
     - http://pandoc.org/installing.html
 6. RestView - Optional, but makes it easy to preview ReStructured text files
-    - http://rst.ninjs.org/
+    - http://rst.ninjs.org/ or to install:
+        
+        $ pip install restview 
 7. git - We use git to version control our documentation and manage with GitHub
     - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
@@ -103,10 +105,10 @@ If you want to go beyond just creating a markdown file, you will need to install
 
         $ pandoc -f markdown -t rst -o index.rst your_file_name.md    
 
-    For convenience, the templates have a few ReStructured text elements that may not be properly converted by Pandoc. You will need to check the converted ReStructured text. You can use an online viewer [http://rst.ninjs.org/](http://rst.ninjs.org/) or you can view live changes using restview [http://rst.ninjs.org/](http://rst.ninjs.org/)
-7. You may need to edit the *'conf.py'* file to change the following lines:
-     - (line 52) copyright = 'YEAR, CyVerse'
-     - (line 113) html_theme = 'sphinx_rtd_theme'
+    For convenience, the templates have a few ReStructured text elements that may not be properly converted by Pandoc. You will need to check the converted ReStructured text. You can use an online viewer [http://rst.ninjs.org/](http://rst.ninjs.org/) or you can view live changes using restview. 
+7. You may need to edit the *'conf.py'* file to change the following values:
+     - copyright = 'YEAR, CyVerse'
+     - html_theme = 'sphinx_rtd_theme'
    We have provided a sample  *'conf.py'* file in the */misc* folder which you could also edit and replace.    
 8. Build the tutorial:
 
