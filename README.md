@@ -70,8 +70,7 @@ If you want to go beyond just creating a markdown file, you will need to install
     - https://packaging.python.org/installing/#install-pip-setuptools-and-wheel
 4. Sphinx - This will build our tutorials into HTML and other formats (this uses the Python package installer 'pip' so Python must be installed first); we will also install the theme we need for our documentation
         
-        $pip install sphinx sphinx-autobuild
-        $ pip install sphinx_rtd_theme
+        $ pip install sphinx sphinx-autobuild sphinx_rtd_theme
 5. Pandoc - This will convert Markdown into ReStructured text
     - http://pandoc.org/installing.html
 6. RestView - Optional, but makes it easy to preview ReStructured text files
@@ -99,10 +98,7 @@ If you want to go beyond just creating a markdown file, you will need to install
         
         $ sphinx-quickstart --project='title_of_your_tutorial_or_quick_start' --author="your_name" -v=1.0
         # you may accept most defaults (by hitting enter)
-        # Enter the following values as prompted
-        # Project name: the title of your tutorial/quick start
-        # Author name(s): your name
-        # Project version: 1.0 (all new tutorials start with v 1.0)       
+      
 6. Convert the markdown file to ReStructured text file (which we will call *index.rst*) using Pandoc:
 
         $ pandoc -f markdown -t rst -o index.rst your_file_name.md    
