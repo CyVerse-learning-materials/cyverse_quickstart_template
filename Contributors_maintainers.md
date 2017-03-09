@@ -12,3 +12,4 @@
 |||||
 |Joslynn Lee|@josleecshl|Cold Spring Harbor Laboratory||
 |Kathleen Kennedy|@kkennedyua|U of A||
+|Uwe Hilgert|hilgert@uwe-hilgert.net|University of Arizona/CyVerse||
