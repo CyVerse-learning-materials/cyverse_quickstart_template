@@ -1,7 +1,7 @@
-|CyVerse logo|
+|CyVerse logo|_
 
-PROJECT NAME
-============
+QUICKSTART NAME
+===============
 
 ..
     Use short, imperative titles e.g. Upload and share data, uploading and
@@ -15,6 +15,7 @@ Goal
     necessarily part of the tutorial - write or link to separate quick
     starts/tutorials for those parts
 
+----------
 
 Prerequisites
 -------------
@@ -28,6 +29,9 @@ Downloads, access, and services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *In order to complete this tutorial you will need access to the following services/software*
+
+..
+	Modify the table below as needed
 
 .. list-table::
     :header-rows: 1
@@ -50,6 +54,9 @@ Platform(s)
 
 *We will use the following CyVerse platform(s):*
 
+..
+	Modify the table below as needed
+
 .. list-table::
     :header-rows: 1
 
@@ -61,22 +68,22 @@ Platform(s)
     * - Discovery Environment
       - Web/Point-and-click
       - `Discovery Environment <https://de.iplantcollaborative.org>`_
-      - `Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
+      - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
       - `Quick Start <>`_
     * - Atmosphere
       - Command-line (ssh) and/or Desktop (VNC)
       - `Atmosphere <https://atmo.cyverse.org>`_
-      - `Manual <https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents>`_
+      - `Atmosphere anual <https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents>`_
       - `Quick Start <>`_
     * - BisQue
       - Web/Point-and-click and/or Command-line (API)
       - `BisQue <http://bisque.iplantcollaborative.org/client_service>`_
-      - `Manual <https://wiki.cyverse.org/wiki/display/BIS>`_
+      - `BisQue Manual <https://wiki.cyverse.org/wiki/display/BIS>`_
       - `Quick Start <>`_
     * - DNA Subway
       - Web/Point-and-click
       - `DNA Subway <http://dnasubway.iplantcollaborative.org/>`_
-      - `Manual <http://dnasubway.iplantcollaborative.org/files/pdf/DNA_Subway_Guide.pdf>`_
+      - `DNA Subway Manual <http://dnasubway.iplantcollaborative.org/files/pdf/DNA_Subway_Guide.pdf>`_
       - `Quick Start <>`_
     * - Agave API
       - Command-line (API)
@@ -87,23 +94,34 @@ Platform(s)
 Input and example data
 ~~~~~~~~~~~~~~~~~~~~~~
 
-*In order to complete this tutorial you will need to have the following inputs prepared*
+*In order to complete this quickstart you will need to have the following inputs prepared*
 
 .. list-table::
-    :header_rows: 1
+    :header-rows: 1
 
     * - Input File(s)
       - Format
       - Preparation/Notes
       - Example Data
+    * - 
+      -
+      -
+      -
 
----
+
+----------
+
 
 Get started
 -----------
 
+1. Step one
+2. Step two
+
+
+
 ..
-    Steps and text go here
+    A numbered list of steps go here
 
 Summary
 ~~~~~~~
@@ -113,63 +131,29 @@ Summary
 
 **Next Steps:**
 
+----------
 
-More help and additional information
-------------------------------------
+Additional information, help
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ..
     Short description and links to any reading materials
 
-Search for an answer:
-    `CyVerse Learning Center <http://www.cyverse.org/learning-center>`_ or
-    `CyVerse Wiki <https://wiki.cyverse.org>`_
+Search for an answer: `CyVerse Learning Center <http://www.cyverse.org/learning-center>`_ or `CyVerse Wiki <https://wiki.cyverse.org>`_
 
 Post your question to the user forum:
-    `Ask CyVerse <http://ask.iplantcollaborative.org/questions>`_
+`Ask CyVerse <http://ask.iplantcollaborative.org/questions>`_
 
 Fix or improve this tutorial
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Fix this tutorial on GitHub:
-    `GitHub <FIX_THIS_IN_YOUR_DOCUMENTATION>`_
+`GitHub <FIX_THIS_IN_YOUR_DOCUMENTATION>`_
 
 Send a note:
-    `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
-
-..
-    Example rST Directives
-    ----------------------
-    
-    See: http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions
-    
-    .. Danger::
-        This step is dangerous
-    
-    .. Important::
-        This step is important
-    
-    .. Caution::
-        Exercise caution
-    
-    .. Hint::
-        This is a hint
-    
-    .. Important::
-        This is very important
-    
-    .. note:: This is a note admonition.
-       This is the second line of the first paragraph.
-    
-       - The note contains all indented body elements following.
-       - It includes this bullet list.
-    
-    .. csv-table:: Title
-        :header: "Column A", "Column B", "Column C"
-        :widths: 15, 10, 30
-        
-        "A", "B", "C"
-
+`Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500
     :height: 100
+.. _CyVerse logo: https://cyverse-learning-materials-home.readthedocs-hosted.com/en/latest/
