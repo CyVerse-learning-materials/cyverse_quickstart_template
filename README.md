@@ -82,7 +82,7 @@ If you want to go beyond just creating a markdown file, you will need to install
 
 ### Procedure 
 
-1. Import the CyVerse base tutorial repo following GitHub's directions here: https://help.github.com/articles/importing-a-repository-with-github-importer/
+1. **Import** (not clone) the CyVerse base tutorial repo following GitHub's directions here: https://help.github.com/articles/importing-a-repository-with-github-importer/
     - The CyVerse base tutorial repo URL is **https://github.com/CyVerse-learning-materials/cyverse_base_quickstart**
     - Name your repo for the name of your quick start or tutorial, e.g. 
     *'name_quickstart'* or *'name_tutorial'*
