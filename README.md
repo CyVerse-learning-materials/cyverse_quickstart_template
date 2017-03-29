@@ -1,20 +1,21 @@
 # Base CyVerse Quickstart Repo
 
-You should copy this repo to build CyVerse Tutorials or Quickstarts
+You should copy this repo to build CyVerse Quickstarts
 
-## How CyVerse tutorials are built
+## How CyVerse Learning Center documentation is built
 
-Each CyVerse Tutorial or Quickstart has its own [ReadtheDocs](https://readthedocs.org/) page which in turn is built from its own repo. Starting from a [ResStructured text file](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) (index.rst) The documentation is built using [Sphinx](http://www.sphinx-doc.org/en/1.4.8/), and hosted on a repo configured with GitHub [Webhooks/Services](http://docs.readthedocs.io/en/latest/webhooks.html). Finally, the site is added to ReadtheDocs. Directions for completing this workflow are below **(See Building a Tutorial from Scratch)**.
+Each CyVerse Tutorial or Quickstart has its own [ReadtheDocs](https://readthedocs.org/) page which in turn is built from its own repo (See the template repos at [https://github.com/CyVerse-learning-materials](https://github.com/CyVerse-learning-materials)). Starting from a [ResStructured text file](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) (index.rst) The documentation is built using [Sphinx](http://www.sphinx-doc.org/en/1.4.8/), and hosted on a repo configured with GitHub [Webhooks/Services](http://docs.readthedocs.io/en/latest/webhooks.html). Finally, the site is added to ReadtheDocs. Directions for completing this workflow are below **(See Building a Tutorial from Scratch)**.
+
 
 ## Documentation types
 
 - **Tutorials:** Tutorials teach. Users should be able to follow an example dataset through the steps of a tutorial and gain understanding about what is happening along those steps. These are in-depth guides that usually address a scientific question by covering the major steps of a scientific workflow. A tutorial is ‘successful’ when a user is able to follow the tutorial a second time with their own data and obtain reasonable results.
-- **Quick Starts:** These materials are short tutorials that cover the minimal amount of information needed to complete an **operational task** (e.g. uploading data, reformatting a file, etc. ); there is no significant explanation of the science or interpretation of results. QSs highlight available resources, answer common questions (derived from user forum), and refer users to the most appropriate materials.
+- **Quickstarts:** These materials are short tutorials that cover the minimal amount of information needed to complete an **operational task** (e.g. uploading data, reformatting a file, etc. ); there is no significant explanation of the science or interpretation of results. QSs highlight available resources, answer common questions (derived from user forum), and refer users to the most appropriate materials.
 
 **Examples:**
 
-- Uploading a file: Quick Start
-- Cleaning FastQ reads: Quick Start
+- Uploading a file: Quickstart
+- Cleaning FastQ reads: Quickstart
 - Uploading files to SRA: Could be both
 - Assembling a transcriptome: Tutorial
 
@@ -47,12 +48,12 @@ Each CyVerse Tutorial or Quickstart has its own [ReadtheDocs](https://readthedoc
 ### Fixing and/or improving documentation via GitHub
 
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repo to your GitHub account
-2. Make edits directly to the **index.rst** file. Edits may be made to the fork the web interface to your GitHub account or [clone](https://help.github.com/articles/cloning-a-repository/) the repo to work on your local computer. For very significant changes (we suggest [making a new branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/). 
+2. Make edits directly to the **index.rst** file. Edits may be made to the fork the web interface to your GitHub account or [clone](https://help.github.com/articles/cloning-a-repository/) the repo to work on your local computer. For very significant changes (we suggest [making a new branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/)). 
 3. Commit change; if working from a local copy, push those changes to your fork in Github. 
 4. Submit a pull request back to the master repository; you may need to act on feedback before your request is merged. 
 
 
-## Building a Tutorial from Scratch
+## Building a Quickstart from Scratch
 
 If you want to go beyond just creating a markdown file, you will need to install some software. 
 
@@ -84,7 +85,7 @@ If you want to go beyond just creating a markdown file, you will need to install
 
 1. **Import** (not clone) the CyVerse base tutorial repo following GitHub's directions here: https://help.github.com/articles/importing-a-repository-with-github-importer/
     - The CyVerse base tutorial repo URL is **https://github.com/CyVerse-learning-materials/cyverse_base_quickstart**
-    - Name your repo for the name of your quick start or tutorial, e.g. 
+    - Name your repo for the name of your quickstart or tutorial, e.g. 
     *'name_quickstart'* or *'name_tutorial'*
 2. Edit the **index.rst**. Save images or other files in the appropriate directories.
 3. Where possible, we recommend keeping documentation on a single index.rst page.  We will have **only one tutorial or quick start per repo.**
