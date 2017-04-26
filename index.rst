@@ -19,11 +19,11 @@ Goal
 	:maxdepth: 2
 	
 	Quickstart home <index.rst>
-	Step One <step1.rst>
+	Step Two <step1.rst>
 
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes 
-	you have an additional page called 'Step One' with content located in 'step1.rst' 
+	you have an additional page called 'Step Two' with content located in 'step2.rst' 
 	Edit these titles and filenames as needed ####
 
 ----------
@@ -129,10 +129,8 @@ Get started
 1. Step one
 2. Step two
 
-
-
 ..
-    A numbered list of steps go here
+    #### Comment: A numbered list of steps go here ####
 
 Summary
 ~~~~~~~
