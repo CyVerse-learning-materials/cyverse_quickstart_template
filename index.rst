@@ -4,8 +4,8 @@ QUICKSTART NAME
 ===============
 
 ..
-    Use short, imperative titles e.g. Upload and share data, uploading and
-    sharing data
+    #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
+    sharing data ####
 
 Goal
 ----
@@ -14,6 +14,17 @@ Goal
     Avoid covering upstream and downstream steps that are not explicitly and
     necessarily part of the tutorial - write or link to separate quick
     starts/tutorials for those parts
+    
+.. toctree::
+	:maxdepth: 2
+	
+	Quickstart home <index.rst>
+	Step One <step1.rst>
+
+..
+	#### Comment:This tutorial can have multiple pages. The table of contents assumes 
+	you have an additional page called 'Step One' with content located in 'step1.rst' 
+	Edit these titles and filenames as needed ####
 
 ----------
 
@@ -21,8 +32,8 @@ Prerequisites
 -------------
 
 ..
-    A few sentences (50 words or less) describing the ultimate goal of the steps
-    in this tutorial
+    #### Comment: A few sentences (50 words or less) describing the ultimate goal of the steps
+    in this tutorial ####
 
 
 Downloads, access, and services
@@ -31,7 +42,7 @@ Downloads, access, and services
 *In order to complete this tutorial you will need access to the following services/software*
 
 ..
-	Modify the table below as needed
+	#### Comment: Modify the table below as needed ####
 
 .. list-table::
     :header-rows: 1
@@ -55,7 +66,7 @@ Platform(s)
 *We will use the following CyVerse platform(s):*
 
 ..
-	Modify the table below as needed
+	#### Comment: Modify the table below as needed ####
 
 .. list-table::
     :header-rows: 1
