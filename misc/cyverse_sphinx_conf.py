@@ -21,8 +21,10 @@ source_parsers = {
 }
 source_suffix = ['.md', '.rst']
 
+common_static_path = os.path.join(os.path.dirname(__file__), 'static')
+
 templates_path = ['_templates']
-html_static_path = ['_static']
+html_static_path = ['_static', common_static_path]
 exclude_patterns = ['_build']
 master_doc = 'index'
 pygments_style = 'sphinx'
@@ -68,3 +70,4 @@ def setup(app):
         True
     )
     app.add_transform(AutoStructify)
+    app.add_stylesheet('cyverse.css')
