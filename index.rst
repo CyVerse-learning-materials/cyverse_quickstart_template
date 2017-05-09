@@ -19,7 +19,7 @@ Goal
 	:maxdepth: 2
 	
 	Quickstart home <index.rst>
-	Step Two <step1.rst>
+	Step Two <step2.rst>
 
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes 
