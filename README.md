@@ -84,7 +84,7 @@ If you want to go beyond just creating a markdown file, you will need to install
 ### Procedure 
 
 1. **Import** (not clone) the CyVerse base tutorial repo following GitHub's directions here: https://help.github.com/articles/importing-a-repository-with-github-importer/
-    - The CyVerse base tutorial repo URL is **https://github.com/CyVerse-learning-materials/cyverse_quickstart_template**
+    - The CyVerse base quickstart repo URL is **https://github.com/CyVerse-learning-materials/cyverse_quickstart_template**
     - Name your repo for the name of your quickstart e.g. 
     *'name_quickstart'* 
 2. Edit the **index.rst**. Save images or other files in the appropriate directories.  **See our recommended style guide for writing documentation below.**
