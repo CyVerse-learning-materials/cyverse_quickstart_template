@@ -4,31 +4,32 @@ You should import this repo to build CyVerse Quickstarts
 
 ## How CyVerse Learning Center documentation is built
 
-Each CyVerse Tutorial or Quickstart has its own [ReadtheDocs](https://readthedocs.org/) page which in turn is built from its own repo (See the template repos at [https://github.com/CyVerse-learning-materials](https://github.com/CyVerse-learning-materials)). Starting from a [ResStructured text file](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) (index.rst) The documentation is built using [Sphinx](http://www.sphinx-doc.org/en/1.4.8/), and hosted on a repo configured with GitHub [Webhooks/Services](http://docs.readthedocs.io/en/latest/webhooks.html). Finally, the site is added to ReadtheDocs. Directions for completing this workflow are below **(See Building a Tutorial from Scratch)**.
-
+Each CyVerse Tutorial, Guide, or Quickstart has its own [ReadtheDocs](https://readthedocs.org/) page which in turn is built from its own repo (See the template repos at [https://github.com/CyVerse-learning-materials](https://github.com/CyVerse-learning-materials)). Starting from a [ResStructured text file](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) (index.rst) The documentation is built using [Sphinx](http://www.sphinx-doc.org/en/1.4.8/), and hosted on a repo configured with GitHub [Webhooks/Services](http://docs.readthedocs.io/en/latest/webhooks.html). Finally, the site is added to ReadtheDocs. Directions for completing this workflow are below **(See Building a Tutorial from Scratch)**.
 
 ## Documentation types
 
 - **Tutorials:** Tutorials teach. Users should be able to follow an example dataset through the steps of a tutorial and gain understanding about what is happening along those steps. These are in-depth guides that usually address a scientific question by covering the major steps of a scientific workflow. A tutorial is ‘successful’ when a user is able to follow the tutorial a second time with their own data and obtain reasonable results.
-- **Quickstarts:** These materials are short tutorials that cover the minimal amount of information needed to complete an **operational task** (e.g. uploading data, reformatting a file, etc. ); there is no significant explanation of the science or interpretation of results. QSs highlight available resources, answer common questions (derived from user forum), and refer users to the most appropriate materials.
+  - **Platform Guide:** A Platform Guide is a slightly modified form of tutorial that covers an entire platform or service
+- **Quick Starts:** These materials are short tutorials that cover the minimal amount of information needed to complete an **operational task** (e.g. uploading data, reformatting a file, etc. ); there is no significant explanation of the science or interpretation of results. QSs highlight available resources, answer common questions (derived from user forum), and refer users to the most appropriate materials.
 
 **Examples:**
 
-- Uploading a file: Quickstart
-- Cleaning FastQ reads: Quickstart
+- Uploading a file: Quick Start
+- Cleaning FastQ reads: Quick Start
 - Uploading files to SRA: Could be both
 - Assembling a transcriptome: Tutorial
+- An intro to the Discovery Environment: Guide
 
 
 ## What this repo contains
 
 |Item|Description|Notes|
 |----|-----------|-----|
-|index.rst|edit this template to create the documentation|You can preview .rst using [RestView](http://rst.ninjs.org/)|
-|quickstart_template.md|Markdown version of template|documents written in markdown will need to be covered to restructured text. [PanDoc](http://pandoc.org/) can do this|
-|/img (folder)|Place images for your tutorials here|CyVerse logos and other useful images are already here| 
+|index.rst|Edit this template to create your documentation|documents written in markdown will need to be covered to restructured text|
+|step1.rst|If documentation has more than one page, use this for the second through last page; copy as needed|copy as needed for additional pages|
+|/img (folder)|Place images for your tutorials here|CyVerse logos and other useful images are already here|
 |/slides (folder)|Place slides associated with your tutorial here|version controlled files preferred, PPT acceptable|
-|/misc (folder)|miscellaneous items associated with this tutorial| if at all possible, files should be hosted (with anonymous access) at the CyVerse public Data Commons site|
+|/misc (folder)|miscellaneous needed for building documentation| |
 |License.md|License|this license file applies to all materials created by CyVerse for this documentation|
 |Contributors_maintainers.md|Contact information and recognition||
 
@@ -71,8 +72,6 @@ If you want to go beyond just creating a markdown file, you will need to install
         $ pip install restview 
 5. git - We use git to version control our documentation and manage with GitHub
     - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-
-**Note:** For your convenience, a markdown version of the template is provided. We'd appreciate if you convert it to ReStructured text, but since the conversion is not perfect, let us know if you need help and we will assist you with the process. 
 
 
 **You will need the following accounts**
