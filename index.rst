@@ -1,6 +1,6 @@
 |CyVerse logo|_
 
-|Home_Icon|_ 
+|Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 QUICKSTART NAME
@@ -17,26 +17,34 @@ Goal
     Avoid covering upstream and downstream steps that are not explicitly and
     necessarily part of the tutorial - write or link to separate quick
     starts/tutorials for those parts
-    
+
+..
+    #### Comment: A few sentences (50 words or less) describing the ultimate goal of the steps
+    in this tutorial ####
+
+----
+
 .. toctree::
 	:maxdepth: 2
-	
+
 	Quickstart home <index.rst>
 	Step Two <step2.rst>
 
 ..
-	#### Comment:This tutorial can have multiple pages. The table of contents assumes 
-	you have an additional page called 'Step Two' with content located in 'step2.rst' 
+	#### Comment:This tutorial can have multiple pages. The table of contents assumes
+	you have an additional page called 'Step Two' with content located in 'step2.rst'
 	Edit these titles and filenames as needed ####
+
+..
+    #### Comment: If you are using the TOC remove the 'summary', 'Additional information,
+    help' and 'Fix or improve this tutorial' from all pages except the last page of the
+    quickstart ####
 
 ----------
 
 Prerequisites
 -------------
 
-..
-    #### Comment: A few sentences (50 words or less) describing the ultimate goal of the steps
-    in this tutorial ####
 
 
 Downloads, access, and services
@@ -81,7 +89,7 @@ Platform(s)
       - Quick Start
     * - Discovery Environment
       - Web/Point-and-click
-      - `Discovery Environment <https://de.iplantcollaborative.org>`_
+      - `Discovery Environment <https://de.cyverse.org/de/>`_
       - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
       - `Quick Start <>`_
     * - Atmosphere
@@ -117,7 +125,7 @@ Input and example data
       - Format
       - Preparation/Notes
       - Example Data
-    * - 
+    * -
       -
       -
       -
@@ -126,8 +134,8 @@ Input and example data
 ----------
 
 
-Get started
------------
+**Get started:**
+----------------
 
 1. Step one
 2. Step two
@@ -135,8 +143,8 @@ Get started
 ..
     #### Comment: A numbered list of steps go here ####
 
-Summary
-~~~~~~~
+**Summary**
+~~~~~~~~~~~
 
 ..
     Summary
@@ -151,21 +159,21 @@ Additional information, help
 ..
     Short description and links to any reading materials
 
-Search for an answer: `CyVerse Learning Center <http://www.cyverse.org/learning-center>`_ or `CyVerse Wiki <https://wiki.cyverse.org>`_
+Search for an answer: `CyVerse Learning Center <http://learning.cyverse.org>`_ or `CyVerse Wiki <https://wiki.cyverse.org>`_
 
 Post your question to the user forum:
 `Ask CyVerse <http://ask.iplantcollaborative.org/questions>`_
 
-Fix or improve this tutorial
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----
 
-Fix this tutorial on GitHub:
-`GitHub <FIX_THIS_IN_YOUR_DOCUMENTATION>`_
+**Fix or improve this documentation**
 
-Send a note:
-`Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+- On Github: `Repo link <FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_>`_
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
-|Home_Icon|_ 
+----
+
+|Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
