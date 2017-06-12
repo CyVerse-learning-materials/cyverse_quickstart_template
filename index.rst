@@ -27,7 +27,7 @@ Goal
 .. toctree::
 	:maxdepth: 2
 
-	Quickstart home <index.rst>
+	Quickstart home <self>
 	Step Two <step2.rst>
 
 ..
@@ -58,18 +58,18 @@ Downloads, access, and services
 .. list-table::
     :header-rows: 1
 
-    * - Prerequisite
-      - Preparation/Notes
-      - Link/Download
-    * - CyVerse account
-      - You will need a CyVerse account to complete this exercise
-      - `Register <https://user.cyverse.org/>`_
-    * - Atmosphere access
-      - You must have access to Atmosphere
-      - `Request Access <http://www.cyverse.org/learning-center/manage-account#AddAppsServices>`_
-    * - Cyberduck
-      - Standalone software for upload/download to Data Store
-      - `Download <https://cyberduck.io/>`_
+	   * - Prerequisite
+	     - Preparation/Notes
+	     - Link/Download
+	   * - CyVerse account
+	     - You will need a CyVerse account to complete this exercise
+	     - `Register <https://user.cyverse.org/>`_
+	   * - Atmosphere access
+	     - You must have access to Atmosphere
+       - `Request Access <https://user.cyverse.org/>`_
+	   * - Cyberduck
+	     - Standalone software for upload/download to Data Store
+	     - `Download <https://cyberduck.io/>`_
 
 Platform(s)
 ~~~~~~~~~~~
@@ -87,31 +87,36 @@ Platform(s)
       - Link
       - Platform Documentation
       - Quick Start
-    * - Discovery Environment
+    * - Data Store
+		  - GUI/Command line
+      - `Data Store <http://www.cyverse.org/data-store>`_
+			- `Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents>`_
+			- `Guide <>`__
+		* - Discovery Environment
       - Web/Point-and-click
       - `Discovery Environment <https://de.cyverse.org/de/>`_
       - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
-      - `Quick Start <>`_
+      - `Guide <>`__
     * - Atmosphere
-      - Command-line (ssh) and/or Desktop (VNC)
+      - Command line (ssh) and/or Desktop (VNC)
       - `Atmosphere <https://atmo.cyverse.org>`_
-      - `Atmosphere anual <https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents>`_
-      - `Quick Start <>`_
+      - `Atmosphere Manual <https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents>`_
+      - `Guide <>`__
     * - BisQue
       - Web/Point-and-click and/or Command-line (API)
-      - `BisQue <http://bisque.iplantcollaborative.org/client_service>`_
+      - `BisQue <https://bisque.cyverse.org/client_service/>`_
       - `BisQue Manual <https://wiki.cyverse.org/wiki/display/BIS>`_
-      - `Quick Start <>`_
+      - `Guide <>`__
     * - DNA Subway
       - Web/Point-and-click
-      - `DNA Subway <http://dnasubway.iplantcollaborative.org/>`_
-      - `DNA Subway Manual <http://dnasubway.iplantcollaborative.org/files/pdf/DNA_Subway_Guide.pdf>`_
-      - `Quick Start <>`_
+      - `DNA Subway <https://dnasubway.cyverse.org/>`_
+      - `DNA Subway Manual <http://dnasubway.cyverse.org/files/pdf/DNA_Subway_Guide.pdf>`_
+      - `Guide <>`__
     * - Agave API
       - Command-line (API)
       - `Agave API <https://agaveapi.co>`_
       - `Live Docs <https://agaveapi.co>`_
-      - `Quick Start <>`_
+      - `Guide <>`__
 
 Input and example data
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -134,7 +139,7 @@ Input and example data
 ----------
 
 
-**Get started:**
+*Get started*
 ----------------
 
 1. Step one
@@ -143,7 +148,7 @@ Input and example data
 ..
     #### Comment: A numbered list of steps go here ####
 
-**Summary**
+*Summary*
 ~~~~~~~~~~~
 
 ..

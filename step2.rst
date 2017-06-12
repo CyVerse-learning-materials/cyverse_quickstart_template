@@ -4,7 +4,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**Section Name**
+*Section Name*
 ----------------
 
 1. Step one
@@ -13,7 +13,9 @@
 ..
     #### Comment: A numbered list of steps go here ####
 
-**Summary**
+----
+
+*Summary*
 ~~~~~~~~~~~
 
 ..
