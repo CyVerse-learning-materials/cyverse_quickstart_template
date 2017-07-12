@@ -4,12 +4,12 @@ You should import this repo to build CyVerse Quickstarts
 
 ## How CyVerse Learning Center documentation is built
 
-Each CyVerse Tutorial, Guide, or Quickstart has its own [ReadtheDocs](https://readthedocs.org/) page which in turn is built from its own repo (See the template repos at [https://github.com/CyVerse-learning-materials](https://github.com/CyVerse-learning-materials)). Starting from a [ResStructured text file](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) (index.rst) The documentation is built using [Sphinx](http://www.sphinx-doc.org/en/1.4.8/), and hosted on a repo configured with GitHub [Webhooks/Services](http://docs.readthedocs.io/en/latest/webhooks.html). Finally, the site is added to ReadtheDocs. Directions for completing this workflow are below **(See Building a Tutorial from Scratch)**.
+Each CyVerse Tutorial, Platform Guide, or Quickstart has its own [ReadtheDocs](https://readthedocs.org/) page which in turn is built from its own repo (See the template repos at [https://github.com/CyVerse-learning-materials](https://github.com/CyVerse-learning-materials)). Starting from a [ResStructured text file](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) (index.rst) The documentation is built using [Sphinx](http://www.sphinx-doc.org/en/1.4.8/), and hosted on a repo configured with GitHub [Webhooks/Services](http://docs.readthedocs.io/en/latest/webhooks.html). Finally, the site is added to ReadtheDocs. Directions for completing this workflow are below **(See Building a Tutorial from Scratch)**.
 
 ## Documentation types
 
 - **Tutorials:** Tutorials teach. Users should be able to follow an example dataset through the steps of a tutorial and gain understanding about what is happening along those steps. These are in-depth guides that usually address a scientific question by covering the major steps of a scientific workflow. A tutorial is ‘successful’ when a user is able to follow the tutorial a second time with their own data and obtain reasonable results.
-  - **Platform Guide:** A Platform Guide is a slightly modified form of tutorial that covers an entire platform or service
+- **Platform Guide:** A Platform Guide is a slightly modified form of tutorial that covers an entire platform or service
 - **Quick Starts:** These materials are short tutorials that cover the minimal amount of information needed to complete an **operational task** (e.g. uploading data, reformatting a file, etc. ); there is no significant explanation of the science or interpretation of results. QSs highlight available resources, answer common questions (derived from user forum), and refer users to the most appropriate materials.
 
 **Examples:**
@@ -25,7 +25,7 @@ Each CyVerse Tutorial, Guide, or Quickstart has its own [ReadtheDocs](https://re
 
 |Item|Description|Notes|
 |----|-----------|-----|
-|index.rst|Edit this template to create your documentation|documents written in markdown will need to be covered to restructured text|
+|index.rst|Edit this template to create your documentation|documents written in markdown will need to be converted to restructured text|
 |step1.rst|If documentation has more than one page, use this for the second through last page; copy as needed|copy as needed for additional pages|
 |/img (folder)|Place images for your tutorials here|CyVerse logos and other useful images are already here|
 |/slides (folder)|Place slides associated with your tutorial here|version controlled files preferred, PPT acceptable|
