@@ -143,6 +143,7 @@ Input and example data
 1. Step one
 2. Step two
 
+----
 ..
     #### Comment: A numbered list of steps go here ####
 
