@@ -52,8 +52,6 @@ Downloads, access, and services
 
 *In order to complete this tutorial you will need access to the following services/software*
 
- ..
-   #### Comment: Modify the table below as needed ####
 
 .. list-table::
     :header-rows: 1
