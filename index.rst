@@ -53,8 +53,8 @@ Downloads, access, and services
 *In order to complete this tutorial you will need access to the following services/software*
 
 
-.. list-table::
-    :header-rows: 1
+ .. list-table::
+   :header-rows: 1
 
    * - Prerequisite
      - Preparation/Notes
