@@ -40,7 +40,7 @@ Goal
     help' and 'Fix or improve this tutorial' from all pages except the last page of the
     quickstart ####
 
-----------
+-----
 
 Prerequisites
 -------------
@@ -133,25 +133,22 @@ Input and example data
       -
       -
 
-
-----------
+----
 
 
 *Get started*
-----------------
+--------------
 
 1. Step one
 2. Step two
 
 ----
-..
-    #### Comment: A numbered list of steps go here ####
+
+
 
 *Summary*
 ~~~~~~~~~~~
 
-..
-    Summary
 
 **Next Steps:**
 
