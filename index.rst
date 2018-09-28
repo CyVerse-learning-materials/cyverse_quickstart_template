@@ -31,7 +31,7 @@ Goal
 
 	Quickstart home <self>
 	Step Two <step2.rst>
-
+	Delete this example guide page <example_directives_delete.rst>
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
 	you have an additional page called 'Step Two' with content located in 'step2.rst'
