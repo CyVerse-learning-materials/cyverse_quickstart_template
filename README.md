@@ -1,6 +1,7 @@
 # Template CyVerse Quickstart Repo
 
 You should import this repo to build CyVerse Quickstarts
+
 **See what this template looks like [rendered on ReadTheDocs](https://cyverse-cyverse-quickstart-template.readthedocs-hosted.com/en/latest/)**
 
 ## How CyVerse Learning Center documentation is built
