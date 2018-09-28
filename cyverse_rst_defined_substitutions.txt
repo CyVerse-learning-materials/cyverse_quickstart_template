@@ -94,7 +94,7 @@
 
 .. |CyVerse Learning Center| raw:: html
 
-   <a href="http://learning.cyverse.org" target="blank">yVerse Learning Center</a>
+   <a href="http://learning.cyverse.org" target="blank">CyVerse Learning Center</a>
 
 .. |CyVerse Wiki| raw:: html
 
@@ -111,3 +111,6 @@
     :width: 25
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
+.. |Intercom| image:: ./img/intercom.png
+    :width: 25
+    :height: 25
