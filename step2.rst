@@ -44,7 +44,7 @@ Post your question to the user forum:
 
 **Fix or improve this documentation**
 
-- On Github: |Repo link|
+- On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
