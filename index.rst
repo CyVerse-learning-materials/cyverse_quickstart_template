@@ -173,7 +173,9 @@ Additional information, help
 ..
     Short description and links to any reading materials
 
-Search for an answer: `CyVerse Learning Center <http://learning.cyverse.org>`_ or `CyVerse Wiki <https://wiki.cyverse.org>`_
+Search for an answer:
+|CyVerse Learning Center| or
+|CyVerse Wiki|
 
 Post your question to the user forum:
 |Ask CyVerse|
@@ -182,7 +184,7 @@ Post your question to the user forum:
 
 **Fix or improve this documentation**
 
-- On Github: `Repo link <FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_>`_
+- On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
