@@ -1,6 +1,6 @@
 .. include:: cyverse_rst_defined_substitutions.txt
 
-|CyVerse logo|_
+|CyVerse_logo|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
@@ -14,6 +14,8 @@
 
 Goal
 ----
+
+In this quick start you will learn how to foo.
 
 ..
     Avoid covering upstream and downstream steps that are not explicitly and
@@ -42,7 +44,24 @@ Goal
     help' and 'Fix or improve this tutorial' from all pages except the last page of the
     quickstart ####
 
------
+Quick Start Maintainer(s)
+----------------------------
+
+Who to contact if this quick start needs fixing. You can also email
+`Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+.. list-table::
+    :header-rows: 1
+
+    * - Maintainer
+      - Institution
+      - Contact
+    * - Your Name
+      - CyVerse / UA
+      - Yourname@email.com
+
+----
+
 
 Prerequisites
 -------------
@@ -143,11 +162,37 @@ Input and example data
 ----
 
 
-*Get started*
---------------
+*Get Started*
+~~~~~~~~~~~~~~~~~~~
 
-1. Step one
-2. Step two
+.. 	#### Comment: Step title should be descriptive (i.e. Cleaning Read data) ###
+
+
+1. Replace the text below with your own
+
+2. Use the image src in this link to link to
+
+   - A DE App: |DE App|
+   - An Atmosphere image: |Atmosphere Image|
+
+3. Click :guilabel:`&Cancel` to continue is how you can show a button
+
+4. Tell the user to choose an appropriate value for a setting
+
+   .. admonition:: sample-data
+
+     Tell them if they are following with our sample data exactly
+     what value to choose
+
+..
+	#### Comment: Suggested style guide:
+	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
+	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
+	(Username > analyses > *output*)
+	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
+	4. Primary menu titles in double quotes: Under "Input" choose...
+	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
+	####
 
 ----
 
@@ -173,18 +218,16 @@ Additional information, help
 ..
     Short description and links to any reading materials
 
-Search for an answer:
-|CyVerse Learning Center| or
-|CyVerse Wiki|
-
-Post your question to the user forum:
-|Ask CyVerse|
-
 ----
 
 **Fix or improve this documentation**
 
-- On Github: |Github Repo Link|
+- Search for an answer:
+  |CyVerse Learning Center|
+- Ask us for help:
+  click |Intercom| on the lower right-hand side of the page
+- Report an issue or submit a change:
+  |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
@@ -228,3 +271,12 @@ Post your question to the user forum:
 .. |Download Cyberduck| raw:: html
 
    <a href="https://cyberduck.io/" target="blank">Download Cyberduck</a>
+
+
+.. |DE App| raw:: html
+
+   <a href="https://de.cyverse.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e&system-id=de" target="blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
+
+.. |Atmosphere Image| raw:: html
+
+   <a href="https://atmo.cyverse.org/application/images/1384" target="blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
