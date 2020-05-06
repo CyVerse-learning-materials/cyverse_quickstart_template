@@ -105,9 +105,11 @@ some software.
    the Python package installer 'pip' so Python must be installed first); we
    will also install the theme we need for our documentation
 
-   **Note** You can use the `minimal_requirements.txt` in /readthedocstools to
+   **Note** You can use the [`minimal_requirements.txt`](https://raw.githubusercontent.com/CyVerse-learning-materials/learning-center-2.0-release/master/readthedocstools/minimal_requirements.txt) in /readthedocstools to
    install these requirements. If you run into problems try this with
-   the whole `requirements.txt`
+   the whole [`requirements.txt`](https://raw.githubusercontent.com/CyVerse-learning-materials/learning-center-2.0-release/master/readthedocstools/requirements.txt) - both of which are in the
+   [learning-center-2.0-release](https://github.com/CyVerse-learning-materials/learning-center-2.0-release)
+   repo (see ``/readthedocstools`). 
 
         $ pip install -r /readthedocstools/minimal_requirements.txt
 
