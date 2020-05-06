@@ -109,7 +109,7 @@ some software.
    install these requirements. If you run into problems try this with
    the whole [`requirements.txt`](https://raw.githubusercontent.com/CyVerse-learning-materials/learning-center-2.0-release/master/readthedocstools/requirements.txt) - both of which are in the
    [learning-center-2.0-release](https://github.com/CyVerse-learning-materials/learning-center-2.0-release)
-   repo (see `/readthedocstools` in that repo). 
+   repo (see `/readthedocstools` in that repo).
 
         $ pip install -r /readthedocstools/minimal_requirements.txt
 
