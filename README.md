@@ -51,16 +51,16 @@ workflow are below **(see Building a Tutorial from Scratch)**.
 |Item|Description|Notes|
 |----|-----------|-----|
 |`index.rst`|This is the homepage of your documentation. It list the title and goal of the documentation, lists a maintainer, and usually indicates what prerequisite platforms, files, and services are needed to complete the tutorial||
-|`step1.rst`|If documentation has more than one page, use this for the second and subsequent pages|copy as needed for additional pages|
+|`step1.rst`|If documentation has more than one page, use this for the second and subsequent pages|Copy as needed for additional pages|
 |`/img`|Place images for your tutorials here|CyVerse logos and other useful images are already here|
 |`example_directives_delete.rst`|Example page with code for common restructured text objects|**Delete** this page before publishing your materials|
-|`cyverse_rst_defined_substitutions.txt`|restructured text substitutions for common URLs and images||
-|`custom_urls.txt`|place URLs particular to your repository here in a single page, suing restructured text substitutions to create hyperlinks|Be sure any documentation page refering to this one has the directive `.. include:: custom_urls.txt` |
+|`cyverse_rst_defined_substitutions.txt`|Restructured text substitutions for common URLs and images||
+|`custom_urls.txt`|Place URLs particular to your repository here in a single page, suing restructured text substitutions to create hyperlinks|Be sure any documentation page referring to this one has the directive `.. include:: custom_urls.txt` |
 |`conf.py` and `/misc/cyverse_sphinx_conf.py`|Edit the tutorial and author name; versioning||
 |README.md|These instructions|**Delete** before publishing your documentation|
 |`/slides`|Place slides associated with your tutorial here|Version controlled files preferred, PPT acceptable|
-|`/misc`|miscellaneous needed for building documentation| |
-|`License.md`|License|this license file applies to all materials created by CyVerse for this documentation|
+|`/misc`|Miscellaneous needed for building documentation| |
+|`License.md`|License|This license file applies to all materials created by CyVerse for this documentation|
 
 
 
