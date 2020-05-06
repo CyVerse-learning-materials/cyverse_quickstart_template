@@ -134,20 +134,21 @@ some software.
 
 ### Editing the template
 
-1. Edit the **index.rst**. Save images or other files in the appropriate
-   directories. **See the recommended style guide in the template.**
+1. Edit the **index.rst** and other files as needed. Save images or other files
+   in the appropriate directories. **See the recommended style guide in the template.**
 
 2. Since tutorials will likely span multiple pages, you can copy internal pages
    page as many times as needed. Update the table of contents at the top of the
-   'index.rst' accordingly. We will have **only one tutorial or quick start per repo.**
+   'index.rst' accordingly. We will have **only documentation piece per repo.**
 
-3. Save your work:
+3. Save your work such as:
     - individual pages (e.g. `index.rst`, `step2.rst`)
     - images (as `.png` files in the  the `/img` folder)
     - changes or additions to `cyverse_rst_defined_substitutions.txt` and
-      `cyverse_rst_defined_substitutions.txt`
+      `custom_urls.txt`
 
-4. Edit the `conf.py` file to set the project and author information
+4. Edit the `conf.py` and `/misc/cyverse_sphinx_conf.py` files to set the
+   project and author information
 
 5. Build the tutorial:
 
