@@ -121,13 +121,13 @@ some software.
 
 ### Obtaining the template
 
-1. **Import** (not clone) the CyVerse base tutorial repo following GitHub's
-   directions here: https://help.github.com/articles/importing-a-repository-with-github-importer/
-    - Choose one of the template repositories at https://github.com/CyVerse-learning-materials/
-      (these repositories are pinned and labeled with topic `template`)
-    - Name your repo for the name of your documentation e.g. *'name_tutorial'*
+1. Choose one of the template repositories at https://github.com/CyVerse-learning-materials/
+   (these are pinned at the top of this page). Click the **Use this template**
+   button. Name your repo for the name of your documentation e.g.
+   *'name_tutorial'*. You may choose public or private. There is no need to
+   include all branches (leave unchecked).
 
-2. Once you have a locally imported copy of the template, clone this new repo
+2. Once you have a new repo made from the template, clone this new repo
    to your local machine for editing.
 
         $git clone MY-TUTORIAL
