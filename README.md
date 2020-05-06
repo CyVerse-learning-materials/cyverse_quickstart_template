@@ -162,8 +162,8 @@ some software.
          $ sphinx-autobuild -b html --host 0.0.0.0 --port 8000 --poll . _build_html
       ````
 
-6. Your HTML site will be in the `_build_html` directory that has been created (you can
-   preview this in your web browser at this time).
+6. Your HTML site will be in the `_build_html` or `_build_` directory that has
+   been created (you can preview this in your web browser at this time).
 
 7. Commit your changes and push the tutorial back to GitHub.
 
