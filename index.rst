@@ -1,4 +1,5 @@
 .. include:: cyverse_rst_defined_substitutions.txt
+.. include:: custom_urls.txt
 
 |CyVerse_logo|_
 
@@ -172,8 +173,8 @@ Input and example data
 
 2. Use the image src in this link to link to
 
-   - A DE App: |DE App|
-   - An Atmosphere image: |Atmosphere Image|
+   - A DE App: |CyVerse_launch|
+   - An Atmosphere image: |CyVerse_launch|
 
 3. Click :guilabel:`&Cancel` to continue is how you can show a button
 
@@ -267,16 +268,6 @@ Additional information, help
 
    <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
 
-
 .. |Download Cyberduck| raw:: html
 
    <a href="https://cyberduck.io/" target="blank">Download Cyberduck</a>
-
-
-.. |DE App| raw:: html
-
-   <a href="https://de.cyverse.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e&system-id=de" target="blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
-
-.. |Atmosphere Image| raw:: html
-
-   <a href="https://atmo.cyverse.org/application/images/1384" target="blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
