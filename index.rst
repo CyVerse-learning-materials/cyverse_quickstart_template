@@ -33,7 +33,7 @@ In this quick start you will learn how to foo.
 	:maxdepth: 2
 
 	Quickstart home <self>
-	Step Two <step2.rst>
+	Step Two and/or Final Step <final_step.rst>
 	Delete this example guide page <example_directives_delete.rst>
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
@@ -49,7 +49,7 @@ Quick Start Maintainer(s)
 ----------------------------
 
 Who to contact if this quick start needs fixing. You can also email
-`Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+`learning@CyVerse.org <learning@CyVerse.org>`_
 
 .. list-table::
     :header-rows: 1
@@ -105,22 +105,18 @@ Platform(s)
     * - Platform
       - Interface
       - Link
-      - Platform Documentation
-      - Quick Start
+      - Platform Tour
     * - Data Store
       - GUI/Command line
       - |Data Store|
-      - |Data Store Manual|
       - |Data Store Guide|
     * - Discovery Environment
       - Web/Point-and-click
       - |Discovery Environment|
-      - |DE Manual|
       - |Discovery Environment Guide|
     * - Atmosphere
       - Command line (ssh) and/or Desktop (VNC)
       - |Atmosphere|
-      - |Atmosphere Manual|
       - |Atmosphere Guide|
     * - BisQue
       - Web/Point-and-click and/or Command-line (API)
@@ -130,18 +126,11 @@ Platform(s)
     * - DNA Subway
       - Web/Point-and-click
       - |DNA Subway|
-      - (See Guide)
       - |DNA Subway Guide|
     * - SciApps
       - Command-line (API)
       - |SciApps|
-      - (See Guide)
       - |SciApps Guide|
-    * - Agave API
-      - Command-line (API)
-      - |Agave API|
-      - |Agave Live Docs|
-      - (See Live Docs)
 
 Input and example data
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -229,7 +218,7 @@ Additional information, help
   click |Intercom| on the lower right-hand side of the page
 - Report an issue or submit a change:
   |Github Repo Link|
-- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+- Send feedback: `learning@CyVerse.org <learning@CyVerse.org>`_
 
 ----
 
