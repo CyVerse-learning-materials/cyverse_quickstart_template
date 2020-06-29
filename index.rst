@@ -220,6 +220,19 @@ Additional information, help
   |Github Repo Link|
 - Send feedback: `learning@CyVerse.org <learning@CyVerse.org>`_
 
+.. comment:
+
+   Uncomment the below and fix with this repo's information if citing
+
+   **Citation**
+
+   You may cite this work as:
+   [Repository Title]
+   [Author(s)]
+   [Repository Release Version]
+   [DOI: Zenodo DOI link (generated from Github Release/Zenodo)]
+
+
 ----
 
 |Home_Icon|_
